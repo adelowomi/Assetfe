@@ -1,0 +1,85 @@
+﻿<style>
+button.onlyright{margin-top: 20px; float: right;}
+    button.wide
+    {
+        width: 50%;
+        max-width: 200px;
+        margin-top: 20px;
+    }
+span.info{font-size: 12px;  color: #7a7676; display: inline-block; margin-bottom: 5px; text-align: right;}
+.dataitem>span.datatitle{display: inline-block; font-weight: bold; margin-right: 10px; line-height: 16px; width:100px}	
+.dataitem>span.datainfo{display: inline-block;  line-height: 20px;}	
+.company-details{margin-left: 65px; max-height: 0px; overflow: hidden; -webkit-transition: all 0.5s; -moz-transition: all 0.5s;
+    transition: all 0.5s;}
+a.coyname{cursor: pointer;}	
+.rightsearch{display: inline-block; float: right; margin-top: -5px;}
+.rightsearch>input{font-weight: normal;}
+button.smalledit{margin-left: -55px; border: 0; margin-top: 0px; background-color: rgba(255,255,255,0);}
+button.smalledit:hover{background-color: rgba(255,255,255,0); color: #FF6C60;}
+.smalledit.deletecoy{margin-left:0px;}
+ul.goal-progress li{padding-bottom: 0px; margin-bottom: 0px; padding-top: 10px; max-height: 50px; margin-top: -20px;}
+    
+li.companylistitems{-webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s;}
+    .profile-pic img
+    {
+        border-radius: 0px; -webkit-border-radius: 0px;
+    }
+</style>
+
+ <!-- page heading start-->
+        <div class="page-heading">
+            <h3>
+                Print ID Card
+            </h3>
+            <ul class="breadcrumb">
+                <li>
+                    <a href="#/">Home</a>
+                </li>
+                <li class="active"> Print ID</li>
+            </ul>
+            <div class="state-info">
+               
+            </div>
+        </div>
+        <!-- page heading end-->
+
+        <!--body wrapper start-->
+        <div class="wrapper">
+           
+            <div class="row">
+            	 <div class="col-md-12">
+                    <div class="panel">
+                        <header class="panel-heading">
+                            Print ID
+                           
+                        </header>
+                        <div class="panel-body" >
+                           <form class="form-horizontal  col-md-12" role="form">
+                               
+                               <div class="alert alert-success alert-block fade in">
+                                <button type="button" class="close close-sm" data-dismiss="alert">
+                                    <i class="fa fa-times"></i>
+                                </button>
+                                <h4>
+                                    <i class="icon-ok-sign"></i>
+                                   User Creation successful!
+                                </h4>
+                                <p ng-show="IdAvailable">Print staff ID Card now if you want. You may also decide to print later.</p>
+                                   <p ng-hide="IdAvailable">No ID card available in stock.</p>
+                            </div>
+                            
+                                 <button class="btn btn-info wide" type="button" ng-click="PrintId()" ng-show="IdAvailable"><i class="fa fa-save"></i> Print ID Now</button>
+                       
+                                <button class="btn btn-default wide" type="button" ng-click="GoHome()"><i class="fa fa-save"></i> Print Later</button>
+                               <button class="btn btn-success wide" type="button" ng-click="CreateAnother()"><i class="fa fa-save"></i> Create Another User</button>
+                              
+                           </form>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+
+          
+        </div>
+        <!--body wrapper end-->

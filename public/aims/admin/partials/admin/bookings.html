@@ -1,0 +1,122 @@
+
+<link rel="stylesheet" href="../plugin/datatables/jquery.dataTables.css">
+<style type="text/css" class="init">
+	td.details-control {
+		background: url('../plugin/datatables/details_open.png') no-repeat center center;
+		cursor: pointer;
+	}
+	tr.shown td.details-control {
+		background: url('../plugin/datatables/details_close.png') no-repeat center center;
+	}
+</style>
+
+<style>
+button.onlyright{margin-top: 20px; float: right;}
+span.info{font-size: 12px;  color: #7a7676; display: inline-block; margin-bottom: 5px; text-align: right;}
+.dataitem>span.datatitle{display: inline-block; font-weight: bold; margin-right: 10px; line-height: 16px; width:100px}	
+.dataitem>span.datainfo{display: inline-block;  line-height: 20px;}	
+.company-details{margin-left: 65px; max-height: 0px; overflow: hidden; -webkit-transition: all 0.5s; -moz-transition: all 0.5s;
+    transition: all 0.5s;}
+a.coyname{cursor: pointer;}	
+.rightsearch{display: inline-block; float: right; margin-top: -5px;}
+.rightsearch>input{font-weight: normal;}
+button.smalledit{margin-left: 55px; border: 0; margin-top: -30px; background-color: rgba(255,255,255,0);}
+button.smalledit:hover{background-color: rgba(255,255,255,0); color: #FF6C60;}
+.smalledit.deletecoy{margin-left:0px;}
+ul.goal-progress li{padding-bottom: 0px; margin-bottom: 0px; padding-top: 15px;}
+li.companylistitems{-webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s;}
+.mail-box-info .header, .mail-nav h4, .mail-nav-body, .mail-nav-bg-color{background-color: #fff;}
+.mail-nav h4{color: #7a7676;}
+.mail-navigation {margin-top: 0px;}
+.nav-pills.country>li>a{border-radius: 0px; margin-left: -15px; width: 130%; border-bottom: 1px solid #ededed; text-transform: uppercase;}
+.nav.country > li > a:hover:hover{background-color: #eee; color: #7a7676;}
+.mail-box-info{padding:0;}
+.mail-box-info .mail-list {margin-top: 13px;}
+.mail-box{ width:58.33333333%;}
+@media (max-width:767px){.mail-box{ width: 100%;} aside.mail-nav{height: 100px;}}
+li.list-group-item:hover{background-color: #ededed;}
+i.cancelitem:hover{color:#FF6C60; }
+#countrylisting>.chosen-container.chosen-container-single{width: 100% !important; margin-top: 0px !important;}
+.chosen-wrapper>.chosen-container.chosen-container-single{width: 100% !important; margin-top: 0px !important;}
+div.checkbox>div{float:left; margin-right: 25px;}
+div.checkbox>label{float: left; margin-right: 25px;}
+a.carrier-info {margin-left: 28px;}
+a.carrier-info>strong.details{width: 120px; display: inline-block;}
+.mail-box-info .mail-list li a:hover.carrier-heading:hover{color: #269abc; cursor: pointer;}
+li.carrier-container{overflow: hidden; max-height: 43px; -webkit-transition: all 0.5s; -moz-transition: all 0.5s;
+    transition: all 0.5s;}
+input[type=search] {-webkit-appearance: textfield;  }
+#example_filter {width: 250px;}
+.childcontainer{width: 101%; background-color: #424f63; margin-left: -8px; margin-top: -8px; margin-right: -8px;}
+
+div.childcontainer > table > tbody > tr {background-color: #424f63; border: 0 !important; color: whitesmoke !important; }
+div.childcontainer > table > tbody > tr:hover {background-color: #353f4f !important; }
+table.childmembers{width: 45%; margin-right: 2.5%;}
+table.childmembers, table.childmembers2 {float: left;}
+table.childmembers2 {width: 45%;}
+div.childcontainer > table > tbody > tr>  td {border-top-color: #353f4f !important;}
+</style>
+
+ <!-- page heading start-->
+        <div class="page-heading">
+            <h3>
+                Manage Bookings
+            </h3>
+            <ul class="breadcrumb">
+                <li>
+                    <a href="#/">Home</a>
+                </li>
+                <li>Administration</li>
+                <li class="active"> Bookings</li>
+            </ul>
+            <div class="state-info">
+               
+            </div>
+        </div>
+        <!-- page heading end-->
+
+        <!--body wrapper start-->
+        <div class="wrapper">
+           
+            <div class="row">
+            	 <div class="col-md-12">
+                    <div class="panel">
+                        <header class="panel-heading">
+                            pending bookings
+                           
+                        </header>
+                        <div class="panel-body">
+                           
+                           <table id="example" class="display" cellspacing="0" width="100%">
+				<thead>
+					<tr>
+						<th></th>
+						<th>Client </th>
+						<th>Departure Terminal</th>
+						<th>Arrival Terminal</th>
+						<th>Passengers</th>
+                        <th>Travel Date</th>
+						<th>Fare</th>
+					</tr>
+				</thead>
+
+				<tfoot style="display: none;">
+					<tr>
+						<th></th>
+						<th>Name</th>
+						<th>Position</th>
+						<th>Office</th>
+						<th>Salary</th>
+					</tr>
+				</tfoot>
+			</table>
+                           
+                         <button class="btn btn-info onlyright" type="button" ng-click="addRoute()"><i class="fa fa-save"></i> Add </button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+        <!--body wrapper end-->

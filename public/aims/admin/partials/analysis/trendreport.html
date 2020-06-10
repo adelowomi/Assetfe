@@ -1,0 +1,561 @@
+
+<style>
+    div.title.bodytext
+    {
+        padding-top: 30px;
+        font-size: 13px;
+        text-align: justify;
+        max-height: 228px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        padding-right: 10px;
+    }
+    ul.goal-progress li
+    {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+</style>
+
+ <!-- page heading start-->
+        <div class="page-heading" style="box-shadow: rgba(0,0,0,0.2) 0 2px 6px; background-color: #ffffff;">
+            <h3>
+               {{companyname}}
+            </h3>
+            <ul class="breadcrumb">
+                <li class="active" style="font-weight:bold; color: #999999;"> Trend Analysis Report: {{analysisdescr}}</li>
+            </ul>
+            <div class="state-info">
+               
+            </div>
+        </div>
+        <!-- page heading end-->
+
+        <!--body wrapper start-->
+        <div class="wrapper">
+           
+             <div class="page-heading">
+            <h3>
+                Liquidity Analysis Report
+            </h3>
+           
+        </div>
+      <div class="row">
+                <div class="col-md-7">
+                    <div class="panel">
+                        <div class="panel-body">
+                            <div class="row revenue-states">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <h4>Liquidity Analysis</h4>
+                                    <div class="icheck">
+                                        <div class="square-red single-row">
+                                           
+                                        </div>
+                                        <div class="square-blue single-row">
+                                           
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                   
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="clearfix">
+                                        <div id="main-chart-legend" class="pull-right">
+                                            
+
+                                        </div>
+                                    </div>
+
+                                    <div id="main-chart">
+                                        <div id="liquidity-chart" class="main-chart" style="padding: 0px; position: relative;">
+                                        
+
+                                        </div>
+                                    </div>
+                                    <ul class="revenue-short-info">
+                                      
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="panel">
+                        <header class="panel-heading">
+                           liquidity summary
+                            <span class="tools pull-right">
+                               
+                             </span>
+                        </header>
+                        <div class="panel-body">
+                            <ul class="goal-progress">
+                                <li>
+                                   
+                                    <div class="details">
+                                        <div class="title" style="font-weight: bold;">
+                                            Performance Rating
+                                        </div>
+                                        <div class="progress progress-xs">
+                                            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: {{liquidity_report.percentile}}%;">
+                                                <span class="">{{liquidity_report.percentile}}%</span>
+                                            </div>
+                                         </div>
+                                        <div class="title bodytext coolscroll">
+                                          <p>  {{liquidity_report.summary}}</p>
+                                       
+                                        </div>
+                                    </div>
+                                </li>
+                               
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+      </div>
+             <div class="page-heading">
+            <h3>
+               Profitability Analysis Report
+            </h3>
+           
+        </div>
+        
+    <div class="row">
+                <div class="col-md-7">
+                    <div class="panel">
+                        <div class="panel-body">
+                            <div class="row revenue-states">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <h4>Profitability Analysis</h4>
+                                </div>
+                               
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                   
+
+                                    <div id="Div2">
+                                        <div id="profitability-chart" class="main-chart" style="padding: 0px; position: relative;">
+                                        
+
+                                        </div>
+                                    </div>
+                                    <ul class="revenue-short-info">
+                                      
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="panel">
+                        <header class="panel-heading">
+                           profitability summary
+                            <span class="tools pull-right">
+                               
+                             </span>
+                        </header>
+                        <div class="panel-body">
+                            <ul class="goal-progress">
+                                <li>
+                                   
+                                    <div class="details">
+                                        <div class="title" style="font-weight: bold;">
+                                            Performance Rating
+                                        </div>
+                                        <div class="progress progress-xs">
+                                            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: {{profitability_report.percentile}}%;">
+                                                <span class="">{{profitability_report.percentile}}%</span>
+                                            </div>
+                                         </div>
+                                        <div class="title bodytext coolscroll">
+                                          <p>  {{profitability_report.summary}}</p>
+                                       
+                                        </div>
+                                    </div>
+                                </li>
+                               
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+      </div>
+
+            <div class="page-heading">
+            <h3>
+               Leverage Analysis Report
+            </h3>
+           
+        </div>
+
+               <div class="row">
+                <div class="col-md-7">
+                    <div class="panel">
+                        <div class="panel-body">
+                            <div class="row revenue-states">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <h4>Leverage Analysis</h4>
+                                </div>
+                               
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                   
+
+                                    <div id="Div1">
+                                        <div id="leverage-chart" class="main-chart" style="padding: 0px; position: relative;">
+                                        
+
+                                        </div>
+                                    </div>
+                                    <ul class="revenue-short-info">
+                                      
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="panel">
+                        <header class="panel-heading">
+                           leverage summary
+                            <span class="tools pull-right">
+                               
+                             </span>
+                        </header>
+                        <div class="panel-body">
+                            <ul class="goal-progress">
+                                <li>
+                                   
+                                    <div class="details">
+                                        <div class="title" style="font-weight: bold;">
+                                            Performance Rating
+                                        </div>
+                                        <div class="progress progress-xs">
+                                            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: {{leverage_report.percentile}}%;">
+                                                <span class="">{{leverage_report.percentile}}%</span>
+                                            </div>
+                                         </div>
+                                        <div class="title bodytext coolscroll">
+                                          <p>  {{leverage_report.summary}}</p>
+                                       
+                                        </div>
+                                    </div>
+                                </li>
+                               
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+      </div>
+
+
+            <div class="page-heading">
+            <h3>
+               Activity Analysis Report
+            </h3>
+           
+        </div>
+             <div class="row">
+                <div class="col-md-7">
+                    <div class="panel">
+                        <div class="panel-body">
+                            <div class="row revenue-states">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <h4>Activity Analysis</h4>
+                                </div>
+                               
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                   
+
+                                    <div id="Div3">
+                                        <div id="activity-chart" class="main-chart" style="padding: 0px; position: relative;">
+                                        
+
+                                        </div>
+                                    </div>
+                                    <ul class="revenue-short-info">
+                                      
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="panel">
+                        <header class="panel-heading">
+                           activity summary
+                            <span class="tools pull-right">
+                               
+                             </span>
+                        </header>
+                        <div class="panel-body">
+                            <ul class="goal-progress">
+                                <li>
+                                   
+                                    <div class="details">
+                                        <div class="title" style="font-weight: bold;">
+                                            Performance Rating
+                                        </div>
+                                        <div class="progress progress-xs">
+                                            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: {{activity_report.percentile}}%;">
+                                                <span class="">{{activity_report.percentile}}%</span>
+                                            </div>
+                                         </div>
+                                        <div class="title bodytext coolscroll">
+                                          <p> {{activity_report.summary}}</p>
+                                       
+                                        </div>
+                                    </div>
+                                </li>
+                               
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+      </div>
+        
+        
+        <div class="page-heading">
+            <h3>
+               Free Cash Flow Analysis Report
+            </h3>
+           
+        </div>
+
+             <div class="row">
+                <div class="col-md-7">
+                    <div class="panel">
+                        <div class="panel-body">
+                            <div class="row revenue-states">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <h4>Free Cash Flow Analysis</h4>
+                                </div>
+                               
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                   
+
+                                    <div id="Div4">
+                                        <div id="freecashflow-chart" class="main-chart" style="padding: 0px; position: relative;">
+                                        
+
+                                        </div>
+                                    </div>
+                                    <ul class="revenue-short-info">
+                                      
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="panel">
+                        <header class="panel-heading">
+                            summary
+                            <span class="tools pull-right">
+                               
+                             </span>
+                        </header>
+                        <div class="panel-body">
+                            <ul class="goal-progress">
+                                <li>
+                                   
+                                    <div class="details">
+                                        <div class="title" style="font-weight: bold;">
+                                            Performance Rating
+                                        </div>
+                                        <div class="progress progress-xs">
+                                             
+    
+                                            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: {{fcr_report.percentile}}%;">
+                                                <span class="">{{fcr_report.percentile}}%</span>
+                                            </div>
+                                         </div>
+                                        <div class="title bodytext coolscroll">
+                                          <p>  
+                                              {{fcr_report.summary}}
+
+                                          </p>
+                                       
+                                        </div>
+                                    </div>
+                                </li>
+                               
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+      </div>
+
+
+
+               <div class="page-heading">
+            <h3>
+              Cash Flow Margin Analysis Report
+            </h3>
+           
+        </div>
+
+             <div class="row">
+                <div class="col-md-7">
+                    <div class="panel">
+                        <div class="panel-body">
+                            <div class="row revenue-states">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <h4>Trend Chart</h4>
+                                </div>
+                               
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                   
+
+                                    <div id="Div5">
+                                        <div id="cashflowmargin-chart" class="main-chart" style="padding: 0px; position: relative;">
+                                        
+
+                                        </div>
+                                    </div>
+                                    <ul class="revenue-short-info">
+                                      
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="panel">
+                        <header class="panel-heading">
+                            summary
+                            <span class="tools pull-right">
+                               
+                             </span>
+                        </header>
+                        <div class="panel-body">
+                            <ul class="goal-progress">
+                                <li>
+                                   
+                                    <div class="details">
+                                        <div class="title" style="font-weight: bold;">
+                                            Performance Rating
+                                        </div>
+                                        
+
+                                        <div class="progress progress-xs">
+                                            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: {{cfm_report.percentile}}%;">
+                                                <span class="">{{cfm_report.percentile}}%</span>
+                                            </div>
+                                         </div>
+                                        <div class="title bodytext coolscroll">
+                                          <p>{{cfm_report.summary}}</p>
+                                       
+                                        </div>
+                                    </div>
+                                </li>
+                               
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+      </div>
+
+
+
+             <div class="page-heading">
+            <h3>
+              Cash Flow Coverage Analysis Report
+            </h3>
+           
+        </div>
+
+             <div class="row">
+                <div class="col-md-7">
+                    <div class="panel">
+                        <div class="panel-body">
+                            <div class="row revenue-states">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <h4>Trend Chart</h4>
+                                </div>
+                               
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                   
+
+                                    <div id="Div6">
+                                        <div id="cashflowcoverage-chart" class="main-chart" style="padding: 0px; position: relative;">
+                                        
+
+                                        </div>
+                                    </div>
+                                    <ul class="revenue-short-info">
+                                      
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="panel">
+                        <header class="panel-heading">
+                            summary
+                            <span class="tools pull-right">
+                               
+                             </span>
+                        </header>
+                        <div class="panel-body">
+                            <ul class="goal-progress">
+                                <li>
+                                   
+                                    <div class="details">
+                                        <div class="title" style="font-weight: bold;">
+                                            Performance Rating
+                                        </div>
+                                        <div class="progress progress-xs">
+                                            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: {{cfc_report.percentile}}%;">
+                                                    
+                                                <span class="">{{cfc_report.percentile}}%</span>
+                                            </div>
+                                         </div>
+                                        <div class="title bodytext coolscroll">
+                                          <p>{{cfc_report.summary}}</p>
+                                       
+                                        </div>
+                                    </div>
+                                </li>
+                               
+                            </ul>
+                            
+'                        </div>
+                    </div>
+                </div>
+      </div>
+
+
+
+
+
+
+
+        </div>
+        <!--body wrapper end-->

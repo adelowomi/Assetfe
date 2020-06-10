@@ -1,0 +1,164 @@
+﻿
+<style>
+button.onlyright{margin-top: 20px; float: right;}
+span.info{font-size: 12px;  color: #7a7676; display: inline-block; margin-bottom: 5px; text-align: right;}
+.dataitem>span.datatitle{display: inline-block; font-weight: bold; margin-right: 10px; line-height: 16px; width:100px}	
+.dataitem>span.datainfo{display: inline-block;  line-height: 20px;}	
+.company-details{margin-left: 65px; max-height: 0px; overflow: hidden; -webkit-transition: all 0.5s; -moz-transition: all 0.5s;
+    transition: all 0.5s;}
+a.coyname{cursor: pointer;}	
+.rightsearch{display: inline-block; float: right; margin-top: -5px;}
+.rightsearch>input{font-weight: normal;}
+button.smalledit{margin-left: 55px; border: 0; margin-top: -30px; background-color: rgba(255,255,255,0);}
+button.smalledit:hover{background-color: rgba(255,255,255,0); color: #FF6C60;}
+.smalledit.deletecoy{margin-left:0px;}
+ul.goal-progress li{padding-bottom: 0px; margin-bottom: 0px; padding-top: 15px;}
+li.companylistitems{-webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s;}
+.mail-box-info .header, .mail-nav h4, .mail-nav-body, .mail-nav-bg-color{background-color: #fff;}
+.mail-nav h4{color: #7a7676;}
+.mail-navigation {margin-top: 0px;}
+.nav-pills.country>li>a{border-radius: 0px; margin-left: -15px; width: 130%; border-bottom: 1px solid #ededed; text-transform: uppercase;}
+.nav.country > li > a:hover:hover{background-color: #eee; color: #7a7676;}
+.mail-box-info{padding:0;}
+.mail-box-info .mail-list {margin-top: 13px;}
+.mail-box{ width:58.33333333%;}
+@media (max-width:767px){.mail-box{ width: 100%;} aside.mail-nav{height: 100px;}}
+li.list-group-item:hover{background-color: #ededed;}
+i.cancelitem:hover{color:#FF6C60; }
+#countrylisting>.chosen-container.chosen-container-single{width: 100% !important; margin-top: 0px !important;}
+.chosen-wrapper>.chosen-container.chosen-container-single{width: 100% !important; margin-top: 0px !important;}
+div.checkbox>div{float:left; margin-right: 25px;}
+div.checkbox>label{float: left; margin-right: 25px;}
+a.carrier-info {margin-left: 28px;}
+a.carrier-info>strong.details{width: 120px; display: inline-block;}
+.mail-box-info .mail-list li a:hover.carrier-heading:hover{color: #269abc; cursor: pointer;}
+li.carrier-container{overflow: hidden; max-height: 43px; -webkit-transition: all 0.5s; -moz-transition: all 0.5s;
+    transition: all 0.5s;}
+</style>
+
+ <!-- page heading start-->
+        <div class="page-heading">
+            <h3>
+               Employee Attendance
+            </h3>
+            <ul class="breadcrumb">
+                <li>
+                    <a ng-href="#/userprofile">Home</a>
+                </li>
+                <li class="active"> Stock</li>
+            </ul>
+            <div class="state-info">
+               
+            </div>
+        </div>
+        <!-- page heading end-->
+
+        <!--body wrapper start-->
+        <div class="wrapper">
+           
+            <div class="row" id="MainView">
+            	 <div class="col-sm-12 col-md-12 col-lg-6">
+                    <div class="panel">
+                        <header class="panel-heading initial-collapse">
+                            All Employees Movement Record
+                        </header>
+                        <div class="panel-body">
+                            <form class="form-horizontal" role="form">
+                                <div class="form-group">
+                                    <label  class="col-lg-3 col-sm-12 control-label">Date from </label>
+                                    <div class="col-lg-9">
+                                        <input type="text" id="txtDatefrom" class="form-control datecontrol"  placeholder="date from" ng-model="NewAllAttendance.date1str">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label  class="col-lg-3 col-sm-12 control-label">Date to </label>
+                                    <div class="col-lg-9">
+                                        <input type="text" id="txtDateto" class="form-control datecontrol"  placeholder="date to" ng-model="NewAllAttendance.date2str">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-lg-12">
+                                        <button class="btn btn-info onlyright" type="button" ng-click="ShowAttendanceAll()"><i class="fa fa-refresh"></i> Show Report</button>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                     <table  id="tblAttendanceAll" class="table table-striped table-hover dataTable" cellspacing="0" width="100%">
+                                        <thead>
+                                            <tr>
+                                                <th>Date</th>
+                                                <th>Employee</th>
+                                                <th>Time In</th>
+                                                <th>Time Out</th>
+                                            </tr>
+                                        </thead>
+
+                                    </table>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            
+            
+          <!-- Singular Staff Attendance Record -->
+                 <div class="col-sm-12 col-md-12 col-lg-6">
+                    <div class="panel">
+                        <header class="panel-heading initial-collapse">
+                            Single Employee Movement Record
+                        </header>
+                        <div class="panel-body">
+                            <form class="form-horizontal" role="form">
+                                <div class="form-group">
+                                    <label  class="col-lg-3 col-sm-12 control-label">Employee</label>
+                                    <div class="col-lg-9 chosen-wrapper">
+                                        <select data-placeholder="select employee" class="chosen-select" id="SelEmployee">
+                                            <option value="-"></option>
+                                            <option ng-repeat="u in allusers" value="{{u.Id}}">{{u.SurName}} {{u.OtherNames}}</option>
+                                        </select>
+                                    </div>  
+                                </div>  
+                                <div class="form-group">
+                                    <label  class="col-lg-3 col-sm-12 control-label">Date from </label>
+                                    <div class="col-lg-9">
+                                        <input type="text" id="Text1" class="form-control datecontrol"  placeholder="date from" ng-model="NewSingleAttendance.date1str">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label  class="col-lg-3 col-sm-12 control-label">Date to </label>
+                                    <div class="col-lg-9">
+                                        <input type="text" id="Text3" class="form-control datecontrol"  placeholder="date to" ng-model="NewSingleAttendance.date2str">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-lg-12">
+                                        <button class="btn btn-info onlyright" type="button" ng-click="ShowAttendanceSingle()"><i class="fa fa-refresh"></i> Show Report</button>
+                                    </div>
+                                </div>
+                                <div class="form-group" id="DisplayAreaAll">
+                                     <table  id="tblAttendanceSingle" class="table table-striped table-hover dataTable" cellspacing="0" width="100%">
+                                        <thead>
+                                            <tr>
+                                                <th>Date</th>
+                                                <th>Time In</th>
+                                                <th>Time Out</th>
+                                            </tr>
+                                        </thead>
+
+                                    </table>
+                                </div>
+                                <div class="form-group" id="PhotoAreaAll">
+                                    <img id="imgPhotoIn" class="sane-image" style="width: 100%" />
+                                    <img id="imgPhotoOut" class="sane-image" style="width: 100%" />
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <!--body wrapper end-->

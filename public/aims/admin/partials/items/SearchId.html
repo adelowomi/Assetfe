@@ -1,0 +1,173 @@
+﻿<style>
+    .searchContainer {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+
+
+<div class="wrapper">
+
+    <div class="row" id="MainView">
+
+        <div class="col-md-12">
+            <div class="panel">
+                <header class="panel-heading">
+                    Search Student ID Status
+                </header>
+                <div class="panel-body">
+                    <div class="row">
+
+                        <div class="col-sm-12 col-md-12 searchContainer">
+                            <div class="col-sm-12 col-md-4 col-lg-3">
+
+                                <div class="form-group">
+                                    <div class="col-md-9 col-lg-9 chosen-wrapper">
+                                        <input type="text" ng-model="Search" class="form-control" placeholder="Enter Matric Number" /><br />
+                                        <button style="margin-left:30px;" class="btn btn-success" id="SearchWithMatNumber">Search</button>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="row" id="Details" >
+        <div class="col-md-12">
+            <div class="panel">
+                <header class="panel-heading initial-collapse">
+                    ID CARD DETAILS
+                </header>
+                <div class="panel-body" style="padding:30px;">
+                    <table class="table table-hover col-md-9">
+                        <tr>
+                            <td>1</td>
+                            <td>
+                                <div class="form-group">
+                                    <label class="control-label">Student Capture Status</label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="">
+                                    <label>{{IDCardStatusInfo.StudentCapturedStatus}}</label>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>
+                                <div class="form-group">
+                                    <label class="control-label">Photo Replication Status</label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="">
+                                    <label>{{IDCardStatusInfo.PhotoReplicationStatus}}</label>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>
+                                <div class="form-group">
+                                    <label class="control-label">Beautification Status</label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="">
+                                    <label>{{IDCardStatusInfo.PhotoBeautificationStatus}}</label>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>
+                                <div class="form-group">
+                                    <label class="control-label">Photo Upload After Beautification</label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="">
+                                    <label>{{IDCardStatusInfo.PhotoUploadAfterBeautificationStatus}}</label>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>
+                                <div class="form-group">
+                                    <label class="control-label">ID Card Print Status</label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="">
+                                    <label>{{IDCardStatusInfo.IDCardPrintStatus}}</label>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>
+                                <div class="form-group">
+                                    <label class="control-label">ID Card Encoded Status</label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="">
+                                    <label>{{IDCardStatusInfo.IDCardEncodedStatus}}</label>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>
+                                <div class="form-group">
+                                    <label class="control-label">ID Card Collection Status</label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="">
+                                    <label>{{IDCardStatusInfo.IDCardCollectedStatus}}</label>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>
+                                <div class="form-group">
+                                    <label class="control-label">Reg. Number</label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="">
+                                    <label>{{IDCardStatusInfo.RegNo}}</label>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>

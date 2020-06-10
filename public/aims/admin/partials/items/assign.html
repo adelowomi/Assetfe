@@ -1,0 +1,242 @@
+﻿
+<style>
+button.onlyright{margin-top: 20px; float: right;}
+span.info{font-size: 12px;  color: #7a7676; display: inline-block; margin-bottom: 5px; text-align: right;}
+.dataitem>span.datatitle{display: inline-block; font-weight: bold; margin-right: 10px; line-height: 16px; width:100px}	
+.dataitem>span.datainfo{display: inline-block;  line-height: 20px;}	
+.company-details{margin-left: 65px; max-height: 0px; overflow: hidden; -webkit-transition: all 0.5s; -moz-transition: all 0.5s;
+    transition: all 0.5s;}
+a.coyname{cursor: pointer;}	
+.rightsearch{display: inline-block; float: right; margin-top: -5px;}
+.rightsearch>input{font-weight: normal;}
+button.smalledit{margin-left: 55px; border: 0; margin-top: -30px; background-color: rgba(255,255,255,0);}
+button.smalledit:hover{background-color: rgba(255,255,255,0); color: #FF6C60;}
+.smalledit.deletecoy{margin-left:0px;}
+ul.goal-progress li{padding-bottom: 0px; margin-bottom: 0px; padding-top: 15px;}
+li.companylistitems{-webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s;}
+.mail-box-info .header, .mail-nav h4, .mail-nav-body, .mail-nav-bg-color{background-color: #fff;}
+.mail-nav h4{color: #7a7676;}
+.mail-navigation {margin-top: 0px;}
+.nav-pills.country>li>a{border-radius: 0px; margin-left: -15px; width: 130%; border-bottom: 1px solid #ededed; text-transform: uppercase;}
+.nav.country > li > a:hover:hover{background-color: #eee; color: #7a7676;}
+.mail-box-info{padding:0;}
+.mail-box-info .mail-list {margin-top: 13px;}
+.mail-box{ width:58.33333333%;}
+@media (max-width:767px){.mail-box{ width: 100%;} aside.mail-nav{height: 100px;}}
+li.list-group-item:hover{background-color: #ededed;}
+i.cancelitem:hover{color:#FF6C60; }
+#countrylisting>.chosen-container.chosen-container-single{width: 100% !important; margin-top: 0px !important;}
+
+div.checkbox>div{float:left; margin-right: 25px;}
+div.checkbox>label{float: left; margin-right: 25px;}
+a.carrier-info {margin-left: 28px;}
+a.carrier-info>strong.details{width: 120px; display: inline-block;}
+.mail-box-info .mail-list li a:hover.carrier-heading:hover{color: #269abc; cursor: pointer;}
+li.carrier-container{overflow: hidden; max-height: 43px; -webkit-transition: all 0.5s; -moz-transition: all 0.5s;
+    transition: all 0.5s;}
+
+    input.readonlytext
+    {
+        border-top: 0 !important;
+        border-bottom: 0 !important;
+        border-right: 0 !important;
+    }
+    .infolist > .form-group
+    {
+        margin-bottom: 5px !important;
+    }
+    .infolist
+    {
+        font-size: 0.9em;
+        font-weight: bold;
+    }
+</style>
+
+ <!-- page heading start-->
+        <div class="page-heading">
+            <h3>
+              Assign Item to Staff
+            </h3>
+            <ul class="breadcrumb">
+                <li>
+                    <a href="#/">Home</a>
+                </li>
+                <li>Items</li>
+                <li class="active"> Assign</li>
+            </ul>
+            <div class="state-info">
+               
+            </div>
+        </div>
+        <!-- page heading end-->
+
+        <!--body wrapper start-->
+        <div class="wrapper">
+           
+            <div class="row">
+            	 <div class="col-md-12">
+                    <div class="panel">
+                        <header class="panel-heading">
+                            assign item to staff
+                           
+                        </header>
+                        <div class="panel-body">
+                           <form class="form-horizontal col-lg-6 col-sm-6" role="form">
+                                <div class="form-group">
+                                <label  class="col-lg-3 col-sm-3 control-label">Item Code</label>
+                                    <div class="col-md-9">
+                                        <div class="input-group">
+                                            <input type="text"  class="form-control" placeholder="enter item code usually printed on the barcode" ng-model="ItemCode">
+                                            <span class="input-group-btn">
+                                            <button class="btn btn-info" type="button" ng-click="FetchItem()"><i class="fa fa-search"></i></button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                               <header class="panel-heading" style="margin-bottom: 20px;"  ng-show="ItemFetched.Id">Item Details</header>
+                                <div class="form-group" ng-show="Issued">
+                                    <label   class="col-lg-12 col-sm-12 control-label" style="text-align: left; font-size: 0.9em; color: #e1003a;
+                                        margin-top: -20px; border-bottom: 1px dotted rgba(0, 0, 0, 0.2); margin-left: 15px; padding-bottom: 10px; width: 94%;"> 
+                                        This item has been issued. You need to unassign an Item before you can re-assign to another person.
+                                    </label>
+                                </div>
+                               
+                               <div style="" class="infolist">
+
+                                   <div class="form-group" ng-show="ItemFetched.Id">
+                                    <label  class="col-lg-4 col-sm-4 control-label">Current User</label>
+                                    <div class="col-lg-8">
+                                        <input type="text" class="form-control readonlytext"  placeholder="" value="{{ItemFetched.SurName}} {{ItemFetched.OtherNames}}">
+                                    </div>
+                                </div> 
+
+                               <div class="form-group" ng-show="ItemFetched.Id">
+                                    <label  class="col-lg-4 col-sm-4 control-label">Category</label>
+                                    <div class="col-lg-8">
+                                        <input type="text" class="form-control readonlytext"  placeholder="" value="{{ItemFetched.CategoryName}}">
+                                    </div>
+                                </div> 
+
+                                <div class="form-group" ng-show="ItemFetched.Id">
+                                    <label  class="col-lg-4 col-sm-4 control-label">Category Description</label>
+                                    <div class="col-lg-8">
+                                        <input type="text" class="form-control readonlytext"  placeholder="" value="{{ItemFetched.CategoryDescription}}">
+                                    </div>
+                                </div> 
+
+                               <div class="form-group" ng-show="ItemFetched.Id">
+                                    <label  class="col-lg-4 col-sm-4 control-label">Item Name</label>
+                                    <div class="col-lg-8">
+                                        <input type="text" class="form-control readonlytext"  placeholder="" value="{{ItemFetched.ItemName}}">
+                                    </div>
+                                </div> 
+
+                               <div class="form-group" ng-show="ItemFetched.Id">
+                                    <label  class="col-lg-4 col-sm-4 control-label">Item Description</label>
+                                    <div class="col-lg-8">
+                                        <input type="text" class="form-control readonlytext"  placeholder="" value="{{ItemFetched.ItemDescription}}">
+                                    </div>
+                                </div> 
+                                    <div class="form-group" ng-show="ItemFetched.Id">
+                                    <label  class="col-lg-4 col-sm-4 control-label">State</label>
+                                    <div class="col-lg-8">
+                                        <input type="text" class="form-control readonlytext"  placeholder="" value="{{ItemFetched.StateName}}">
+                                    </div>
+                                </div>
+                           <div class="form-group" ng-show="ItemFetched.Id">
+                                    <label  class="col-lg-4 col-sm-4 control-label">Location</label>
+                                    <div class="col-lg-8">
+                                        <input type="text" class="form-control readonlytext"  placeholder="" value="{{ItemFetched.TagLocation}}">
+                                    </div>
+                                </div>
+                               
+                               </div>
+                               
+                               <div class="form-group" ng-show="ItemFetched.Id">
+                                    <label  class="col-lg-12 col-sm-12 control-label" style="text-align: left; font-size: 0.9em; color: #e1003a;
+                                        margin-top: -5px; border-bottom: 1px dotted rgba(0, 0, 0, 0.2); margin-left: 15px; padding-bottom: 10px; width: 94%;"> 
+                                        
+                                    </label>
+                                </div>
+                               
+        
+
+                           </form>
+                         
+                            <form class="form-horizontal col-lg-6 col-sm-6" role="form" ng-show="CanAssign">
+
+                                <div class="form-group">
+                                <label  class="col-lg-3 col-sm-3 control-label">Assign to</label>
+                                <div class="col-lg-9 chosen-wrapper">
+                                    <select data-placeholder="assign this item to this person" class="chosen-select" id="selassignto">
+                                        <option value></option>
+                                        <option ng-repeat="u in allusers" value="{{u.Id}}">{{u.SurName}} {{u.OtherNames}}</option>
+                                    </select>
+                                </div>
+                            </div>  
+
+                               <div class="form-group">
+                                <label  class="col-lg-3 col-sm-3 control-label">Returnable?</label>
+                                <div class="col-lg-9 chosen-wrapper">
+                                    <select data-placeholder="is this item returnable?" class="chosen-select" id="selreturnable">
+                                        <option value="-"></option>
+                                        <option value="1">Yes</option>
+                                        <option value="0">No</option>
+                                    </select>
+                                </div>
+                            </div>  
+
+
+                                <div class="form-group">
+                                <label  class="col-lg-3 col-sm-3 control-label">Current User?</label>
+                                <div class="col-lg-9 chosen-wrapper">
+                                    <select data-placeholder="is assignee already using this item?" class="chosen-select" id="selcurrentuser">
+                                        <option value="-"></option>
+                                        <option value="1">Yes</option>
+                                        <option value="0">No</option>
+                                    </select>
+                                </div>
+                            </div>  
+
+                                   <div class="form-group">
+                                <label  class="col-lg-3 col-sm-3 control-label">Issue Date</label>
+                                <div class="col-lg-4">
+                                    <input type="text" id="Text1" class="form-control datecontrol"  placeholder="date of item issue" ng-model="IssueDate">
+                                </div>
+                                
+                                 <label class="control-label col-md-1">Time</label>
+                                    <div class="col-md-4">
+                                        <div class="input-group bootstrap-timepicker">
+                                            <input type="text"  class="form-control timepicker-default timecontrol" placeholder="time" ng-model="IssueTime">
+                                            <span class="input-group-btn">
+                                            <button class="btn btn-default" type="button"><i class="fa fa-clock-o"></i></button>
+                                            </span>
+                                        </div>
+                                    </div>
+                            </div>
+
+
+                                 <div class="form-group">
+                                <label  class="col-lg-3 col-sm-3 control-label">Approver</label>
+                                <div class="col-lg-9 chosen-wrapper">
+                                    <select data-placeholder="who is approving this request?" class="chosen-select" id="selApprovedStaffId">
+                                        <option value></option>
+                                        <option ng-repeat="u in allusers" value="{{u.Id}}">{{u.SurName}} {{u.OtherNames}}</option>
+                                    </select>
+                                </div>
+                            </div>  
+
+                               
+                            
+                                </form>
+                            <button ng-show="CanAssign" class="btn btn-info onlyright" type="button" ng-click="AssignItem()"><i class="fa fa-save"></i> Assign Item</button>
+                        </div>
+                    </div>
+                </div>
+                
+         
+            </div>
+
+        </div>
+        <!--body wrapper end-->

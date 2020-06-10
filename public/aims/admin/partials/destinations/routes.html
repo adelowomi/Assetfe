@@ -1,0 +1,239 @@
+
+<style>
+button.onlyright{margin-top: 20px; float: right;}
+span.info{font-size: 12px;  color: #7a7676; display: inline-block; margin-bottom: 5px; text-align: right;}
+.dataitem>span.datatitle{display: inline-block; font-weight: bold; margin-right: 10px; line-height: 16px; width:100px}	
+.dataitem>span.datainfo{display: inline-block;  line-height: 20px;}	
+.company-details{margin-left: 65px; max-height: 0px; overflow: hidden; -webkit-transition: all 0.5s; -moz-transition: all 0.5s;
+    transition: all 0.5s;}
+a.coyname{cursor: pointer;}	
+.rightsearch{display: inline-block; float: right; margin-top: -5px;}
+.rightsearch>input{font-weight: normal;}
+button.smalledit{margin-left: 55px; border: 0; margin-top: -30px; background-color: rgba(255,255,255,0);}
+button.smalledit:hover{background-color: rgba(255,255,255,0); color: #FF6C60;}
+.smalledit.deletecoy{margin-left:0px;}
+ul.goal-progress li{padding-bottom: 0px; margin-bottom: 0px; padding-top: 15px;}
+li.companylistitems{-webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s;}
+.mail-box-info .header, .mail-nav h4, .mail-nav-body, .mail-nav-bg-color{background-color: #fff;}
+.mail-nav h4{color: #7a7676;}
+.mail-navigation {margin-top: 0px;}
+.nav-pills.country>li>a{border-radius: 0px; margin-left: -15px; width: 130%; border-bottom: 1px solid #ededed; text-transform: uppercase;}
+.nav.country > li > a:hover:hover{background-color: #eee; color: #7a7676;}
+.mail-box-info{padding:0;}
+.mail-box-info .mail-list {margin-top: 13px;}
+.mail-box{ width:58.33333333%;}
+@media (max-width:767px){.mail-box{ width: 100%;} aside.mail-nav{height: 100px;}}
+li.list-group-item:hover{background-color: #ededed;}
+i.cancelitem:hover{color:#FF6C60; }
+#countrylisting>.chosen-container.chosen-container-single{width: 100% !important; margin-top: 0px !important;}
+.chosen-wrapper>.chosen-container.chosen-container-single{width: 100% !important; margin-top: 0px !important;}
+div.checkbox>div{float:left; margin-right: 25px;}
+div.checkbox>label{float: left; margin-right: 25px;}
+a.carrier-info {margin-left: 28px;}
+a.carrier-info>strong.details{width: 120px; display: inline-block;}
+.mail-box-info .mail-list li a:hover.carrier-heading:hover{color: #269abc; cursor: pointer;}
+li.carrier-container{overflow: hidden; max-height: 43px; -webkit-transition: all 0.5s; -moz-transition: all 0.5s;
+    transition: all 0.5s;}
+</style>
+
+ <!-- page heading start-->
+        <div class="page-heading">
+            <h3>
+                Manage Routes
+            </h3>
+            <ul class="breadcrumb">
+                <li>
+                    <a href="#/">Home</a>
+                </li>
+                <li>Destinations</li>
+                <li class="active"> Routes</li>
+            </ul>
+            <div class="state-info">
+               
+            </div>
+        </div>
+        <!-- page heading end-->
+
+        <!--body wrapper start-->
+        <div class="wrapper">
+           
+            <div class="row">
+            	 <div class="col-md-5">
+                    <div class="panel">
+                        <header class="panel-heading">
+                            add route
+                           
+                        </header>
+                        <div class="panel-body">
+                           <form class="form-horizontal" role="form">
+                           <div class="form-group">
+                                <label  class="col-lg-2 col-sm-2 control-label">Company</label>
+                                <div class="col-lg-10 chosen-wrapper">
+                                    <select data-placeholder="Select company ..." class="chosen-select" id="selectCompany">
+                                        <option value></option>
+                                        <option ng-repeat="t in transportCompanies" value="{{t.Id}}">{{t.CompanyName}}</option>
+                                    </select>
+                                </div>
+                            </div> 
+                            <div class="form-group">
+                                <label  class="col-lg-2 col-sm-2 control-label">Mode</label>
+                                <div class="col-lg-10 chosen-wrapper">
+                                    <select data-placeholder="Travel mode ..." class="chosen-select" id="selectMode">
+                                        <option value></option>
+                                        <option value="1">Road</option>
+                                        <option value="2">Sea</option>                                        
+                                        <option value="3">Air</option>
+                                        <option value="4">Rail</option>                                        
+                                    </select>
+                                </div>
+                            </div>  
+                            
+                            <div class="form-group">
+                                <label  class="col-lg-2 col-sm-2 control-label">From</label>
+                                <div class="col-lg-10 chosen-wrapper">
+                                    <select data-placeholder="Select departure terminal ..." class="chosen-select" id="selFromTerminal">
+                                        <option value></option>
+                                        <option ng-repeat="tr in selectedCompany.terminals" value="{{tr.Id}}">{{tr.Cities}} - {{tr.TerminalName}}</option>
+                                    </select>
+                                </div>
+                            </div>  
+                            
+                            <div class="form-group">
+                                <label  class="col-lg-2 col-sm-2 control-label">To</label>
+                                <div class="col-lg-10 chosen-wrapper">
+                                    <select data-placeholder="Select destination terminal ..." class="chosen-select" id="selToTerminal">
+                                        <option value></option>
+                                        <option ng-repeat="tm in selectedCompany.terminals" value="{{tm.Id}}">{{tm.Cities}} - {{tm.TerminalName}}</option>
+                                    </select>
+                                </div>
+                            </div>  
+                                                   
+
+                            <div class="form-group">
+                                <label  class="col-lg-2 col-sm-2 control-label">Departure</label>
+                                <div class="col-lg-4">
+                                    <input type="text" id="txtDeparture" class="form-control datecontrol"  placeholder="date" ng-model="newRoute.departure.date">
+                                </div>
+                                
+                                 <label class="control-label col-md-1">Time</label>
+                                    <div class="col-md-5">
+                                        <div class="input-group bootstrap-timepicker">
+                                            <input type="text"  class="form-control timepicker-default timecontrol" placeholder="time" ng-model="newRoute.departure.time">
+                                            <span class="input-group-btn">
+                                            <button class="btn btn-default" type="button"><i class="fa fa-clock-o"></i></button>
+                                            </span>
+                                        </div>
+                                    </div>
+                            </div>
+                            
+                          
+                            
+                             <div class="form-group">
+                                <label  class="col-lg-2 col-sm-2 control-label">Arrival</label>
+                                <div class="col-lg-4">
+                                    <input type="text" id="txtArrival" class="form-control datecontrol"  placeholder="date" ng-model="newRoute.arrival.date">
+                                </div>
+                                
+                                <label class="control-label col-md-1">Time</label>
+                                    <div class="col-md-5">
+                                        <div class="input-group bootstrap-timepicker">
+                                            <input type="text"  class="form-control timepicker-default timecontrol" placeholder="time" ng-model="newRoute.arrival.time">
+                                            <span class="input-group-btn">
+                                            <button class="btn btn-default" type="button"><i class="fa fa-clock-o"></i></button>
+                                            </span>
+                                        </div>
+                                    </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label  class="col-lg-2 col-sm-2 control-label">Carrier</label>
+                                <div class="col-lg-10 chosen-wrapper">
+                                    <select data-placeholder="Select carrier or vehicle ..." class="chosen-select" id="selCarrier">
+                                        <option value></option>
+                                        <option ng-repeat="c1 in selectedCompany.carriers" value="{{c1.Id}}">{{c1.CarrierModel}}, {{c1.CarrierName}}</option>
+                                    </select>
+                                </div>
+                            </div>  
+                            
+                             <div class="form-group">
+                                <label  class="col-lg-2 col-sm-2 control-label">Fare</label>
+                                <div class="col-lg-10">
+                                    <input type="text" class="form-control numericonly"  placeholder="transport fare" ng-model="newRoute.RouteFare">
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label  class="col-lg-2 col-sm-2 control-label">Seats</label>
+                                <div class="col-lg-10">
+                                    <input type="text" class="form-control numericonly"  placeholder="number of seats reserved" ng-model="newRoute.NoOfSeatsReserved">
+                                </div>
+                            </div>
+                            
+                             <div class="form-group">
+                                <label  class="col-lg-2 col-sm-2 control-label">Stops</label>
+                                <div class="col-lg-10">
+                                    <input type="text" class="form-control"  placeholder="list stops on the trip separated by commas" ng-model="newRoute.Stops">
+                                </div>
+                            </div>
+                            
+                           
+                        
+                        
+
+                           </form>
+                         <button class="btn btn-info onlyright" type="button" ng-click="addRoute()"><i class="fa fa-save"></i> Add </button>
+                        </div>
+                    </div>
+                </div>
+                
+               
+          <div class="mail-box col-md-7">
+                <aside class="mail-nav mail-nav-bg-color">
+                    <header class="panel-heading">company </header>
+                    <div class="mail-nav-body" id="countrylisting">
+					<select data-placeholder="Select company ..." class="chosen-select" id="selectCompanyforRoutes" >
+	                    <option value></option>
+						<option ng-repeat="t in transportCompanies" value="{{t.Id}}">{{t.CompanyName}}</option>
+                       
+                    </select>
+                      <!--  <ul class="nav nav-pills nav-stacked mail-navigation country">
+                            <li ng-repeat="c in countries"><a href="#"> {{c.NATIONALITY}}</a></li>
+
+                        </ul>-->
+
+                    </div>
+                  
+                </aside>
+                <section class="mail-box-info">
+                    <header class="panel-heading" style="color: #269abc;">routes </header>
+
+                    <section class="mail-list">
+                    
+                        <ul class="list-group " style="margin-left: 15px;">
+                       
+                            <li class="list-group-item carrier-container" ng-repeat="r in selectedCompany.routes" cid='{{r.Id}}' state="closed">
+                                <a class="thumb pull-left delete-terminal" cid='{{r.Id}}' > <i class="fa fa-times cancelitem" cid='{{r.Id}}'></i> </a>
+                                <a class="carrier-heading" cid='{{r.Id}}' > <small class="pull-right text-muted"></small> <strong >{{c.CarrierModel}}, {{c.CarrierName}} </strong>  </a><br/><br/>
+								<a class="carrier-info" > <small class="pull-right text-muted"></small> <strong class="details">Capacity </strong> - {{c.CarrierNoOfSeats}} </a>  <br/>
+								<a class="carrier-info" > <small class="pull-right text-muted"></small> <strong class="details">Acquired Units </strong> - {{c.CarrierNoOfSeatsPaidFor}}  </a>  <br/>                                
+								<a class="carrier-info" > <small class="pull-right text-muted"></small> <strong class="details">Registration No. </strong> - {{c.CarrierRegNo}}  </a>  <br/> 
+								<a class="carrier-info" > <small class="pull-right text-muted"></small> <strong class="details">Description</strong> - {{c.CarrierDescription}}  </a>  <br/>                                 
+								<a class="carrier-info" > <small class="pull-right text-muted"></small> <strong class="details">Has AC?</strong> - {{c.CarrierACWorking}}  </a>  <br/>
+                            </li>
+                            
+                           
+                           <li class="list-group-item" ng-hide="selectedCompany.routes">
+                                <a class="thumb pull-left" > <i class=""></i> </a>
+                                <a class="" > <small class="pull-right text-muted"></small> <strong> </strong> There are no active routes for selected company   </a>
+                            </li>
+                    
+                        </ul>
+                    </section>
+
+
+                </section>
+            </div>
+            </div>
+
+        </div>
+        <!--body wrapper end-->

@@ -1,0 +1,166 @@
+.jcarousel-container {
+    position: relative;
+	}
+.jcarousel-clip {
+    z-index: 2;
+    padding: 0;
+	width: 760px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+	}
+.jcarousel-list {
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+	}
+.jcarousel-list li,
+.jcarousel-item {
+    float: left;
+    list-style: none;
+	padding: 0;
+	}
+.jcarousel-next {
+    z-index: 100;
+    display: none;
+	}
+.jcarousel-prev {
+    z-index: 100;
+    display: none;
+	}
+.gallery-holder {
+	display: none;
+	}
+.gallery-products .jcarousel-container-horizontal { 
+	}
+.gallery-products .jcarousel-clip-horizontal {
+	overflow: hidden;
+	}
+.gallery-products .jcarousel-item,
+.gallery-products .jcarousel-list li {
+	width: 240px;
+	margin-right: 20px;
+	position: relative;
+	}
+.gallery-products .jcarousel-list {
+	overflow: hidden;
+	}
+.gallery-products .jcarousel-list li {
+	float: left;
+	}
+.gallery-products  a {
+	display:block;
+	width: 240px;
+	position:relative;
+	margin-bottom: 20px;
+	}
+.gallery-products { 
+	padding-top: 10px;
+	background: transparent;
+	}
+.title {
+	position: absolute;
+	display: block;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 13px 0 18px 0;
+	font-size: 26px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #fff;
+	text-align: center;
+	background: rgba(0,0,0,0.8);
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+	}
+.box-gallery .purplebg {
+	background-color: #6666A4;
+	}
+.box-gallery .greenbg {
+	background-color: #7AC292;
+	}
+.box-gallery .bluebg {
+	background-color: #83C9DC;
+	}
+.box-gallery .pinkbg {
+	background-color: #7089AD;
+	}
+.gallery-products .jcarousel-list li a:hover .title {
+	background: #D45559;
+	}
+.gallery-products .jcarousel-next-horizontal,
+.gallery-products .jcarousel-prev-horizontal {
+	position: absolute;
+	top: 85px;
+	height: 70px;
+	width: 70px;
+	cursor: pointer;
+	display: block;
+	}
+.gallery-products .jcarousel-next-horizontal {
+	right: 0px;
+	background:  url(../images/products-next.png);
+	}
+.gallery-products .jcarousel-next-horizontal:hover {
+	background:  url(../images/products-next_hover.png);
+	}
+.gallery-products .jcarousel-next-disabled-horizontal,
+.gallery-products .jcarousel-next-disabled-horizontal:hover,
+.gallery-products .jcarousel-next-disabled-horizontal:active { 
+	cursor: default; 
+	}
+.gallery-products .jcarousel-prev-horizontal {
+	left: 0px;
+	background:  url(../images/products-prev.png);
+	}
+.gallery-products .jcarousel-prev-horizontal:hover {
+	background:  url(../images/products-prev_hover.png);
+	}
+.gallery-products .jcarousel-prev-disabled-horizontal,
+.gallery-products .jcarousel-prev-disabled-horizontal:hover,
+.gallery-products .jcarousel-prev-disabled-horizontal:active {
+	cursor: default;
+	}
+
+
+
+/*
+This is the visible area of you carousel.
+Set a width here to define how much items are visible.
+The width can be either fixed in px or flexible in %.
+Position must be relative!
+*/
+.jcarousel {
+    position: relative;
+}
+
+/*
+This is the container of the carousel items.
+You must ensure that the position is relative or absolute and
+that the width is big enough to contain all items.
+*/
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+
+    /* Optional, required in this case since it's a <ul> element */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+These are the item elements. jCarousel works best, if the items
+have a fixed width and height (but it's not required).
+*/
+.jcarousel li {
+    /* Required only for block elements like <li>'s */
+    float: left;
+}

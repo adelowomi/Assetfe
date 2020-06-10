@@ -1,0 +1,3839 @@
+/* Compass Sprites Implementation */
+/* line 506, sprites/*.png */
+.sprites-sprite, .sprites-team-icon-algorithm, .sprites-team-icon-alliteration, .sprites-team-icon-analytical, .sprites-team-icon-averagejoe, .sprites-team-icon-book, .sprites-team-icon-boxing, .sprites-team-icon-cam, .sprites-team-icon-cassette, .sprites-team-icon-chivalrous, .sprites-team-icon-cloud, .sprites-team-icon-code, .sprites-team-icon-corerefactoring, .sprites-team-icon-dad, .sprites-team-icon-debugging, .sprites-team-icon-design, .sprites-team-icon-dj, .sprites-team-icon-eye, .sprites-team-icon-fishing, .sprites-team-icon-frenchpress, .sprites-team-icon-handwriting, .sprites-team-icon-hassling, .sprites-team-icon-hiker, .sprites-team-icon-lateralthinking, .sprites-team-icon-learning, .sprites-team-icon-learningprogramming, .sprites-team-icon-longterm, .sprites-team-icon-magnifyer, .sprites-team-icon-math, .sprites-team-icon-menumemorizing, .sprites-team-icon-mom, .sprites-team-icon-motorcycle, .sprites-team-icon-movingthings, .sprites-team-icon-mug, .sprites-team-icon-multithreading, .sprites-team-icon-ninja, .sprites-team-icon-nobelprize, .sprites-team-icon-passionate, .sprites-team-icon-patience, .sprites-team-icon-pencil, .sprites-team-icon-piano, .sprites-team-icon-pie, .sprites-team-icon-pixel, .sprites-team-icon-rubikscube, .sprites-team-icon-run, .sprites-team-icon-sailing, .sprites-team-icon-salesguru, .sprites-team-icon-salespitbull, .sprites-team-icon-satisfyingcustomers, .sprites-team-icon-shower, .sprites-team-icon-shy, .sprites-team-icon-singing, .sprites-team-icon-sleeping, .sprites-team-icon-sportsfanatic, .sprites-team-icon-sushi, .sprites-team-icon-travel, .sprites-team-icon-unittesting, .sprites-team-icon-urbaneplorer, .sprites-team-icon-videogames, .sprites-team-icon-wushu {
+  background: url('../images/sprites-sf405553bec.png') no-repeat;
+}
+
+/* line 266, icon/*.png */
+.icon-sprite, .icon-api, .icon-bubble, .icon-contacts, .icon-cross-modal, .icon-cross, .icon-cross20-20, .icon-eye, .icon-facebook, .icon-gplus, .icon-instagram, .icon-logo-color, .icon-logo-menu, .icon-logo-white, .icon-marker, .icon-menu-grey, .icon-menu-white, .icon-menu, .icon-mug, .icon-pencil, .icon-pinterest, .icon-products-next, .icon-products-prev, .icon-suitcase, .icon-twitter {
+  background: url('../images/icon-sf182371c0e.png') no-repeat;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-algorithm {
+  background-position: 0 -124px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-alliteration {
+  background-position: 0 -372px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-analytical {
+  background-position: 0 -651px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-averagejoe {
+  background-position: 0 -992px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-book {
+  background-position: 0 -1116px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-boxing {
+  background-position: 0 -1147px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-cam {
+  background-position: 0 -1178px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-cassette {
+  background-position: 0 -1426px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-chivalrous {
+  background-position: 0 -1488px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-cloud {
+  background-position: 0 -1519px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-code {
+  background-position: 0 -868px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-corerefactoring {
+  background-position: 0 -217px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-dad {
+  background-position: 0 -1395px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-debugging {
+  background-position: 0 -434px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-design {
+  background-position: 0 -775px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-dj {
+  background-position: 0 -93px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-eye {
+  background-position: 0 -1550px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-fishing {
+  background-position: 0 -341px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-frenchpress {
+  background-position: 0 -1271px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-handwriting {
+  background-position: 0 -1364px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-hassling {
+  background-position: 0 -403px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-hiker {
+  background-position: 0 -930px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-lateralthinking {
+  background-position: 0 -31px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-learning {
+  background-position: 0 -744px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-learningprogramming {
+  background-position: 0 -465px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-longterm {
+  background-position: 0 -1302px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-magnifyer {
+  background-position: 0 -899px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-math {
+  background-position: 0 -1798px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-menumemorizing {
+  background-position: 0 -310px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-mom {
+  background-position: 0 -961px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-motorcycle {
+  background-position: 0 -496px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-movingthings {
+  background-position: 0 -1333px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-mug {
+  background-position: 0 -1457px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-multithreading {
+  background-position: 0 -713px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-ninja {
+  background-position: 0 -1240px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-nobelprize {
+  background-position: 0 -1023px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-passionate {
+  background-position: 0 -1674px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-patience {
+  background-position: 0 0;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-pencil {
+  background-position: 0 -1736px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-piano {
+  background-position: 0 -1767px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-pie {
+  background-position: 0 -682px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-pixel {
+  background-position: 0 -1209px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-rubikscube {
+  background-position: 0 -62px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-run {
+  background-position: 0 -620px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-sailing {
+  background-position: 0 -837px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-salesguru {
+  background-position: 0 -1705px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-salespitbull {
+  background-position: 0 -806px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-satisfyingcustomers {
+  background-position: 0 -186px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-shower {
+  background-position: 0 -589px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-shy {
+  background-position: 0 -1612px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-singing {
+  background-position: 0 -558px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-sleeping {
+  background-position: 0 -1085px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-sportsfanatic {
+  background-position: 0 -248px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-sushi {
+  background-position: 0 -155px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-travel {
+  background-position: 0 -1581px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-unittesting {
+  background-position: 0 -1643px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-urbaneplorer {
+  background-position: 0 -279px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-videogames {
+  background-position: 0 -527px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-team-icon-wushu {
+  background-position: 0 -1054px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-api {
+  background-position: 0 -538px;
+  height: 100px;
+  width: 100px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-bubble {
+  background-position: 0 -1389px;
+  height: 23px;
+  width: 31px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-contacts {
+  background-position: 0 0;
+  height: 328px;
+  width: 55px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-cross-modal {
+  background-position: 0 -1368px;
+  height: 20px;
+  width: 20px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-cross {
+  background-position: 0 -1449px;
+  height: 15px;
+  width: 15px;
+}
+/* line 43, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-cross:hover, .icon-cross.cross_hover, .icon-cross.cross-hover {
+  background-position: 0 -445px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-cross20-20 {
+  background-position: 0 -1413px;
+  height: 20px;
+  width: 20px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-eye {
+  background-position: 0 -1262px;
+  height: 18px;
+  width: 29px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-facebook {
+  background-position: 0 -1281px;
+  height: 46px;
+  width: 20px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-gplus {
+  background-position: 0 -674px;
+  height: 45px;
+  width: 50px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-instagram {
+  background-position: 0 -843px;
+  height: 51px;
+  width: 51px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-logo-color {
+  background-position: 0 -329px;
+  height: 44px;
+  width: 247px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-logo-menu {
+  background-position: 0 -639px;
+  height: 34px;
+  width: 200px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-logo-white {
+  background-position: 0 -493px;
+  height: 44px;
+  width: 247px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-marker {
+  background-position: 0 -1434px;
+  height: 14px;
+  width: 18px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-menu-grey {
+  background-position: 0 -1481px;
+  height: 15px;
+  width: 20px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-menu-white {
+  background-position: 0 -1497px;
+  height: 15px;
+  width: 20px;
+}
+/* line 43, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-menu-white:hover, .icon-menu-white.menu-white_hover, .icon-menu-white.menu-white-hover {
+  background-position: 0 -461px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-menu {
+  background-position: 0 -1465px;
+  height: 15px;
+  width: 20px;
+}
+/* line 43, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-menu:hover, .icon-menu.menu_hover, .icon-menu.menu-hover {
+  background-position: 0 -477px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-mug {
+  background-position: 0 -1348px;
+  height: 19px;
+  width: 31px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-pencil {
+  background-position: 0 -1328px;
+  height: 19px;
+  width: 21px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-pinterest {
+  background-position: 0 -720px;
+  height: 51px;
+  width: 39px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-products-next {
+  background-position: 0 -374px;
+  height: 70px;
+  width: 70px;
+}
+/* line 43, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-products-next:hover, .icon-products-next.products-next_hover, .icon-products-next.products-next-hover {
+  background-position: 0 -1120px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-products-prev {
+  background-position: 0 -1191px;
+  height: 70px;
+  width: 70px;
+}
+/* line 43, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-products-prev:hover, .icon-products-prev.products-prev_hover, .icon-products-prev.products-prev-hover {
+  background-position: 0 -772px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-suitcase {
+  background-position: 0 -895px;
+  height: 177px;
+  width: 189px;
+}
+
+/* line 60, ../../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-twitter {
+  background-position: 0 -1073px;
+  height: 46px;
+  width: 55px;
+}
+
+/* line 15, ../sass/styles.scss */
+[class*="sprites-"],
+[class*="icon-"] {
+  display: inline-block;
+}
+
+/* line 19, ../sass/styles.scss */
+.main-font {
+  font-family: 'Open Sans', sans-serif;
+  color: #1a1a1a;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+/* line 25, ../sass/styles.scss */
+html {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  background: transparent;
+}
+
+/* line 31, ../sass/styles.scss */
+body {
+  background: #fff;
+  font-family: 'Open Sans', sans-serif;
+  color: #1a1a1a;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+/* line 40, ../sass/styles.scss */
+input,
+textarea,
+select {
+  font-family: 'Open Sans', sans-serif;
+  color: #1a1a1a;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+/* line 46, ../sass/styles.scss */
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: #1a1a1a;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0 0 20px;
+}
+
+/* line 53, ../sass/styles.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 56, ../sass/styles.scss */
+a:hover {
+  text-decoration: none;
+  color: #26b7ff;
+}
+
+/* line 65, ../sass/styles.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', sans-serif;
+  color: #1a1a1a;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+/* line 71, ../sass/styles.scss */
+h1 {
+  font-size: 60px;
+}
+
+/* line 74, ../sass/styles.scss */
+h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+/* line 78, ../sass/styles.scss */
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+/* line 82, ../sass/styles.scss */
+.tal {
+  text-align: left;
+}
+
+/* line 85, ../sass/styles.scss */
+.tac {
+  text-align: center;
+}
+
+/* line 88, ../sass/styles.scss */
+.tar {
+  text-align: right;
+}
+
+/* line 91, ../sass/styles.scss */
+.indent {
+  padding: 0 20px;
+}
+
+/* line 94, ../sass/styles.scss */
+.row {
+  margin-left: -30px;
+  *zoom: 1;
+}
+
+/* line 99, ../sass/styles.scss */
+.row:before,
+.row:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+/* line 104, ../sass/styles.scss */
+.row:after {
+  clear: both;
+}
+
+/* line 107, ../sass/styles.scss */
+.container {
+  position: relative;
+}
+
+/* line 110, ../sass/styles.scss */
+[class*="span"] {
+  float: left;
+  min-height: 1px;
+  margin-left: 30px;
+}
+
+/* line 115, ../sass/styles.scss */
+.span1 {
+  width: 230px;
+}
+
+/* line 118, ../sass/styles.scss */
+.span2 {
+  width: 680px;
+}
+
+/* line 121, ../sass/styles.scss */
+.span3 {
+  width: 960px;
+}
+
+/*
+[class^="icon-"],
+[class*=" icon-"] {
+  background-image: url(../images/img-sprite.png);
+}
+*/
+/*dropdpwn menu*/
+/* line 131, ../sass/styles.scss */
+.drop-menu {
+  position: absolute;
+  z-index: 5;
+  width: 200px;
+  display: block;
+  right: 0;
+  top: 0;
+  padding: 20px 50px 0;
+  background: #1a1a1a;
+}
+
+/* line 141, ../sass/styles.scss */
+.drop-menu.fixed {
+  position: fixed;
+}
+
+/* line 144, ../sass/styles.scss */
+.drop-menu .cross {
+  position: absolute;
+  top: 7px;
+  right: 35px;
+  width: 44px;
+  height: 35px;
+  padding-top: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+/*
+.drop-menu .cross .icon-cross {
+  width: 15px;
+  height: 16px;
+  background: url(../images/img-sprite.png) no-repeat -120px -99px;
+}
+.drop-menu .cross:hover .icon-cross {
+  background: url(../images/img-sprite.png) no-repeat -145px -99px;
+}
+*/
+/* line 164, ../sass/styles.scss */
+.drop-menu ul {
+  margin: 0 0 40px 0;
+  list-style: 0;
+}
+
+/* line 168, ../sass/styles.scss */
+.drop-menu ul li {
+  border-bottom: 1px solid #5f5f5f;
+  margin-bottom: 20px;
+}
+
+/* line 172, ../sass/styles.scss */
+.drop-menu ul li a {
+  display: block;
+  color: #fff;
+  font-size: 20px;
+  padding: 0 0 20px;
+}
+
+/* line 178, ../sass/styles.scss */
+.drop-menu ul li a:hover {
+  color: #26B7FF;
+}
+
+/* line 182, ../sass/styles.scss */
+.drop-menu ul li a:hover,
+.drop-menu ul li a:focus {
+  text-decoration: none;
+  outline: 0;
+}
+
+/* line 186, ../sass/styles.scss */
+.drop-menu ul li ul {
+  margin: 0;
+  display: none;
+}
+
+/* line 190, ../sass/styles.scss */
+.drop-menu ul li ul li {
+  border: 0;
+  margin-bottom: 0;
+}
+
+/* line 194, ../sass/styles.scss */
+.drop-menu ul li ul li:first-child {
+  border-top: 1px solid #5f5f5f;
+  padding-top: 20px;
+}
+
+/* line 198, ../sass/styles.scss */
+.drop-menu ul li ul li a {
+  font-size: 15px;
+  border: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+/* line 204, ../sass/styles.scss */
+.layout-body {
+  position: relative;
+  z-index: 10;
+  background: #fff;
+}
+
+/* ------- header -----------*/
+/* line 211, ../sass/styles.scss */
+header,
+.header-fixed {
+  height: 47px;
+  padding: 15px 20px 0;
+}
+
+/* line 216, ../sass/styles.scss */
+header .header-menu,
+.header-fixed .header-menu {
+  float: right;
+}
+
+/* line 220, ../sass/styles.scss */
+header .header-menu [class*='btn-'],
+.header-fixed .header-menu [class*='btn-'] {
+  color: #1a1a1a;
+  font-size: 21px;
+  display: inline-block;
+  *display: inline;
+  height: 40px;
+  vertical-align: top;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* line 231, ../sass/styles.scss */
+header .header-menu [class*='btn-']:focus,
+.header-fixed .header-menu [class*='btn-']:focus {
+  outline: 0;
+}
+
+/* line 237, ../sass/styles.scss */
+header.white-home,
+.header-fixed.white-home,
+header.white,
+.header-fixed.white {
+  background: #fff;
+}
+
+/* line 240, ../sass/styles.scss */
+.header-fixed.white {
+  border-bottom: 1px #DADBDF solid;
+  box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.08);
+}
+
+/*
+header.white-home .btn-menu .icon-menu,
+.header-fixed.white-home .btn-menu .icon-menu,
+header.white .btn-menu .icon-menu,
+.header-fixed.white .btn-menu .icon-menu {
+  background-position: -89px -99px;
+}
+*/
+/* line 253, ../sass/styles.scss */
+header.black,
+.header-fixed.black {
+  background: #262626;
+}
+
+/*
+header.black .btn-menu .icon-menu,
+.header-fixed.black .btn-menu .icon-menu {
+  background-position: 1px -99px;
+}
+*/
+/* line 263, ../sass/styles.scss */
+header.black .header-menu [class*='btn-'],
+.header-fixed.black .header-menu [class*='btn-'] {
+  color: #fff;
+}
+
+/* line 271, ../sass/styles.scss */
+header.white-home [class*='btn-']:hover,
+.header-fixed.white-home [class*='btn-']:hover,
+header.white [class*='btn-']:hover,
+.header-fixed.white [class*='btn-']:hover,
+header.black [class*='btn-']:hover,
+.header-fixed.black [class*='btn-']:hover {
+  color: #26B7FF;
+}
+
+/* line 275, ../sass/styles.scss */
+header .btn-menu,
+.header-fixed .btn-menu {
+  margin-left: 35px;
+}
+
+/* line 281, ../sass/styles.scss */
+header .btn-menu .icon-menu,
+header .btn-menu .icon-menu-white,
+.header-fixed .btn-menu .icon-menu,
+.header-fixed .btn-menu .icon-menu-white {
+  /*
+    width: 21px;
+    height: 15px;
+  */
+  float: left;
+  margin-top: 8px;
+  margin-right: 4px;
+}
+
+/* line 290, ../sass/styles.scss */
+header.white-home .btn-menu:hover .icon-menu {
+  background-position: 0 -461px;
+}
+
+/* line 293, ../sass/styles.scss */
+#header-fixed {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+/* line 301, ../sass/styles.scss */
+.logo {
+  position: absolute;
+  z-index: 110;
+  top: 8px;
+  left: 20px;
+  width: 45px;
+  /*   height: 50px; */
+}
+
+/* line 309, ../sass/styles.scss */
+.logo.fixed {
+  position: fixed;
+}
+
+/*
+.logo.white {
+  background: url(../images/logo-white.png) no-repeat 0 0;
+}
+.logo.black {
+  background: url(../images/logo-black.png) no-repeat 0 0;
+}
+.logo.color {
+  background: url(../images/logo-color.png) no-repeat 0 0;
+}
+*/
+/* line 323, ../sass/styles.scss */
+.logo a {
+  display: block;
+  width: 45px;
+  /*   height: 50px; */
+  text-decoration: none;
+}
+
+/*------------ CONTENT ------------*/
+/* line 330, ../sass/styles.scss */
+.box-list {
+  *zoom: 1;
+}
+
+/* line 334, ../sass/styles.scss */
+.box-list:before,
+.box-list:after {
+  display: table;
+  content: '';
+}
+
+/* line 338, ../sass/styles.scss */
+.box-list:after {
+  clear: both;
+}
+
+/* line 341, ../sass/styles.scss */
+.list {
+  list-style: none;
+  margin: 0 0 0 -55px;
+}
+
+/* line 345, ../sass/styles.scss */
+.list li {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 440px;
+  margin: 0 0 60px 55px;
+  vertical-align: top;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+/* line 354, ../sass/styles.scss */
+.list .images {
+  text-align: center;
+}
+
+/* line 357, ../sass/styles.scss */
+h2.border {
+  font-size: 45px;
+  line-height: 60px;
+  text-align: center;
+  margin: 0 0 50px;
+  background: url(../images/grey-pixel.jpg) repeat-x 0 30px;
+  white-space: nowrap;
+}
+
+/* line 365, ../sass/styles.scss */
+h2.border span {
+  display: inline-block;
+  *display: inline;
+  background: #fff;
+  padding: 0 25px;
+}
+
+/*---------------------- PAGE  HOME --------------------*/
+/* --------------- Section Header  ----------------*/
+/* line 372, ../sass/styles.scss */
+.home-page-top .header {
+  height: 792px;
+  margin: 0 auto 0px;
+  background: transparent url(../images/HomepageHeroBg2.jpg) no-repeat fixed center -140px;
+}
+
+/* line 377, ../sass/styles.scss */
+.home-page-top .header .container-mask {
+  height: 542px;
+  padding-top: 250px;
+  background: transparent url(../images/dotted-mask.png) repeat;
+}
+
+/* line 382, ../sass/styles.scss */
+.home-page-top .header .container {
+  width: 860px;
+}
+
+/* line 385, ../sass/styles.scss */
+.home-page-top .header .slider-words .slider-row {
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 300;
+  color: #1a1a1a;
+  height: 60px;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 0px;
+  padding: 0px 10px 10px;
+  background: rgba(255, 255, 255, 0.75);
+}
+
+/* line 398, ../sass/styles.scss */
+.home-page-top .header .slider-words .slider-row .staticText {
+  float: left;
+}
+
+/* line 401, ../sass/styles.scss */
+.home-page-top .header .slider-words .slider-row .jSlots-wrapper {
+  float: left;
+  background: transparent;
+}
+
+/* line 405, ../sass/styles.scss */
+.home-page-top .header .slider-words .slider-row .empower {
+  padding-top: 20px;
+  display: inline-block;
+  position: relative;
+  float: left;
+  margin: 0 0 0 10px;
+  list-style: none;
+  background: transparent;
+}
+
+/* line 414, ../sass/styles.scss */
+.home-page-top .header .slider-words .slider-row .empower li {
+  display: inline;
+}
+
+/* line 417, ../sass/styles.scss */
+.home-page-top .header .slider-words .slider-row .empower li.text-orange {
+  color: #d45559;
+}
+
+/* line 420, ../sass/styles.scss */
+.home-page-top .header .slider-words .slider-row .empower li.text-green {
+  color: #83C99C;
+}
+
+/* line 423, ../sass/styles.scss */
+.home-page-top .header .slider-words .slider-row .empower li.text-blue {
+  color: #8ECCDB;
+}
+
+/* line 426, ../sass/styles.scss */
+.home-page-top .header .slider-words .slider-row .empower span {
+  display: block;
+  height: 70px;
+  word-wrap: normal;
+}
+
+/* line 431, ../sass/styles.scss */
+.home-page-top .header .slider-words .slider-row #empower1 li:nth-child(1) span {
+  width: 335px;
+}
+
+/* line 434, ../sass/styles.scss */
+.home-page-top .header .slider-words .slider-row #empower1 li:nth-child(2) span {
+  width: 195px;
+}
+
+/* line 437, ../sass/styles.scss */
+.home-page-top .header .slider-words .slider-row #empower1 li:nth-child(3) span {
+  width: 195px;
+}
+
+/* line 440, ../sass/styles.scss */
+.home-page-top .header .slider-words .slider-row #empower1 li:nth-child(4) span {
+  width: 195px;
+}
+
+/* line 443, ../sass/styles.scss */
+.home-page-top .header .slider-words .slider-row #empower2 li:nth-child(1) span {
+  width: 300px;
+}
+
+/* line 446, ../sass/styles.scss */
+.home-page-top .header .slider-words .slider-row #empower2 li:nth-child(2) span {
+  width: 350px;
+}
+
+/* line 449, ../sass/styles.scss */
+.home-page-top .header .slider-words .slider-row #empower2 li:nth-child(3) span {
+  width: 300px;
+}
+
+/* line 452, ../sass/styles.scss */
+.home-page-top .header .slider-words .slider-row #empower2 li:nth-child(4) span {
+  width: 300px;
+}
+
+  span#hometoday
+  {
+	  display: none;
+  }
+/* line 455, ../sass/styles.scss */
+.home-page-top .header p {
+  font-size: 65px;
+  line-height: 1em;
+  font-weight: 300;
+  color: #1a1a1a;
+  display: inline-block;
+  margin-bottom: 6px;
+  padding: 5px 10px 12px;
+  background: rgba(255, 255, 255, 0.85);
+}
+
+/* line 465, ../sass/styles.scss */
+.home-page-top .header .btn-box {
+ /* text-align: center;*/
+  padding-top: 15px;
+}
+
+/* line 469, ../sass/styles.scss */
+.home-page-top .header .btn-box .btn-red {
+  padding: 25px 32px;
+  font-size: 30px;
+  border-bottom-width: 3px;
+}
+
+/* line 474, ../sass/styles.scss */
+.home-page-top .container-animation {
+  width: 860px;
+  margin: 0 auto;
+}
+
+/* line 478, ../sass/styles.scss */
+.home-page-top .box-list h2 {
+  margin-bottom: 27px;
+  text-align: center;
+  font-size: 36px;
+}
+
+/* line 483, ../sass/styles.scss */
+.home-page-top .box-list p {
+  margin-bottom: 0;
+  color: #1a1a1a;
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  height: 120px;
+}
+
+/* line 493, ../sass/styles.scss */
+.home-page-top .box-list .list li:nth-child(3),
+.home-page-top .box-list .list li:nth-child(4) {
+  border-bottom: 0;
+}
+
+/* line 496, ../sass/styles.scss */
+.home-page-top .box-list .list .images {
+  padding: 40px 0 50px;
+}
+
+/* line 499, ../sass/styles.scss */
+.imgMobie {
+  display: none;
+}
+
+/* --------------- Section We Get It  ----------------*/
+/* line 503, ../sass/styles.scss */
+.technology {
+  min-height: 356px;
+}
+
+/* line 506, ../sass/styles.scss */
+.technology .we-get-it {
+  height: 357px;
+  margin: 0 auto 95px;
+  text-align: center;
+  background: transparent url(../images/HomepageWeGetItBg.jpg) no-repeat fixed center -200px;
+}
+
+/* line 512, ../sass/styles.scss */
+.technology .we-get-it .container-mask {
+  height: 277px;
+  padding-top: 80px;
+  background: transparent url(../images/dotted-mask.png) repeat;
+}
+
+/* line 517, ../sass/styles.scss */
+.technology .we-get-it .title-container {
+  margin-bottom: 15px;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.9);
+  font-size: 75px;
+  line-height: 1.2em;
+  color: #fff;
+  padding: 0 10px 10px;
+  text-align: center;
+}
+
+/* line 527, ../sass/styles.scss */
+.technology .we-get-it p {
+  margin-bottom: 0;
+  font-size: 40px;
+  line-height: 1.1em;
+  color: #fff;
+  text-align: center;
+}
+
+/* line 534, ../sass/styles.scss */
+.technology .we-get-it .bg-black {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 5px 5px 10px;
+}
+
+/* line 538, ../sass/styles.scss */
+.technology .we-get-it .bg-black p {
+  font-weight: 300;
+}
+
+/* line 541, ../sass/styles.scss */
+.technology .img-technology {
+  margin-bottom: 80px;
+}
+
+/* line 544, ../sass/styles.scss */
+.technology p {
+  font-size: 30px;
+  line-height: 1.4em;
+  line-height: 1.1em;
+  margin-bottom: 10px;
+}
+
+/* line 550, ../sass/styles.scss */
+.technology .font-light {
+  font-weight: 300;
+}
+
+/* line 553, ../sass/styles.scss */
+.technology .img-map {
+  padding-top: 70px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+/* line 558, ../sass/styles.scss */
+.technology .our-partners {
+  padding-top: 50px;
+  padding-bottom: 45px;
+  background: #3c3e4d;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* line 566, ../sass/styles.scss */
+.technology .our-partners span {
+  font-size: 2em;
+  line-height: 1.8em;
+  margin-right: 20px;
+}
+
+/* line 571, ../sass/styles.scss */
+.technology .our-partners span i {
+  font-style: normal;
+}
+
+/* line 574, ../sass/styles.scss */
+.technology .our-partners span b {
+  font-weight: 400;
+}
+
+/* line 577, ../sass/styles.scss */
+.technology .our-partners .btn-red {
+  margin-top: -15px;
+  font-size: 24px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+/* line 583, ../sass/styles.scss */
+.technology .btn-black {
+  display: inline-block;
+  *display: inline;
+  background: #1a1a1a;
+  padding: 0px 15px 0px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 1.4em;
+  line-height: 2.2em;
+  font-weight: bold;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+/* line 596, ../sass/styles.scss */
+.technology .btn-black:hover {
+  background: #5c5c5c;
+  text-decoration: none;
+}
+
+/* line 600, ../sass/styles.scss */
+.technology .container-our-technology {
+  width: 940px;
+  padding-top: 80px;
+  margin: 0 auto;
+}
+
+/* line 605, ../sass/styles.scss */
+.technology .list-technology li {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+/* line 609, ../sass/styles.scss */
+.technology .list-technology li:nth-child(7) {
+  border: 0;
+}
+
+/* line 612, ../sass/styles.scss */
+.technology .list-technology li:nth-child(8) {
+  border: 0;
+}
+
+/* line 615, ../sass/styles.scss */
+.technology .list-technology p {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  height: 140px;
+}
+
+/* line 621, ../sass/styles.scss */
+.technology .list-technology h3 {
+  font-size: 30px;
+  font-weight: 400;
+  background: none;
+  text-align: center;
+  color: #1a1a1a;
+  white-space: nowrap;
+}
+
+/* line 629, ../sass/styles.scss */
+.technology .list-technology .images {
+  height: 130px;
+  margin-bottom: 10px;
+}
+
+/*---------------- Home Page Gallery -------------*/
+/* line 634, ../sass/styles.scss */
+.gallery-home-page {
+  min-height: 720px;
+  margin-bottom: 90px;
+  background-color: #dedede;
+ /* background: url(../images/HomepageProductsBg.jpg) no-repeat center top;*/
+}
+
+/* line 639, ../sass/styles.scss */
+.title-gallery {
+  padding: 50px 0;
+  margin-bottom: 50px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #000;
+  font-size: 1.9em;
+  line-height: 1.4em;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+}
+
+/* line 650, ../sass/styles.scss */
+.box-gallery {
+  margin: 0 auto;
+  width: 940px;
+  position: relative;
+}
+
+/* line 655, ../sass/styles.scss */
+.box-gallery h2 {
+  font-size: 40px;
+  line-height: 69px;
+  margin-bottom: 50px;
+  background: rgba(255, 255, 255, 0.7);
+  font-weight: 400;
+  padding: 5px 0;
+  text-align: center;
+}
+
+/* line 664, ../sass/styles.scss */
+.box-gallery .pager {
+  position: relative;
+  top: -200px;
+}
+
+/* line 668, ../sass/styles.scss */
+.box-gallery .pager .icon-products-prev {
+  position: absolute;
+  left: -100px;
+}
+
+/* line 672, ../sass/styles.scss */
+.box-gallery .pager .icon-products-next {
+  position: absolute;
+  right: -100px;
+}
+
+/*---------- Section How Work With You ------------*/
+/*-------- default style responsive-----*/
+/* line 678, ../sass/styles.scss */
+.cooperation .box-list {
+  margin-bottom: 60px;
+}
+
+/* line 681, ../sass/styles.scss */
+.cooperation .description {
+  padding-bottom: 30px;
+}
+
+/* line 684, ../sass/styles.scss */
+.cooperation .description-hover {
+  display: none;
+  padding-bottom: 30px;
+}
+
+/* line 688, ../sass/styles.scss */
+.small-list {
+  margin: 0 0 0 90px;
+}
+
+/* line 691, ../sass/styles.scss */
+.small-list li {
+  width: 250px;
+  height: 290px;
+  float: left;
+  margin: 0 0 0px 0px;
+  padding: 50px 5px 0px;
+  text-align: center;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* line 704, ../sass/styles.scss */
+.small-list li:nth-child(7),
+.small-list li:nth-child(8) {
+  border: 0;
+}
+
+/* line 708, ../sass/styles.scss */
+.small-list li:nth-child(1):hover,
+.small-list li:nth-child(8):hover {
+  background: #7ac292;
+}
+
+/* line 712, ../sass/styles.scss */
+.small-list li:nth-child(2):hover,
+.small-list li:nth-child(7):hover {
+  background: #83c9dc;
+}
+
+/* line 716, ../sass/styles.scss */
+.small-list li:nth-child(3):hover,
+.small-list li:nth-child(5):hover {
+  background: #f5d48d;
+}
+
+/* line 720, ../sass/styles.scss */
+.small-list li:nth-child(4):hover,
+.small-list li:nth-child(6):hover {
+  background: #7089ad;
+}
+
+/* line 723, ../sass/styles.scss */
+.small-list li:hover h2 {
+  color: #fff;
+}
+
+/* line 726, ../sass/styles.scss */
+.small-list li:hover p {
+  color: #fff;
+}
+
+/* line 729, ../sass/styles.scss */
+.small-list li .img-hover {
+  display: none;
+}
+
+/* line 732, ../sass/styles.scss */
+.small-list h2 {
+  font-size: 28px;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 15px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* line 742, ../sass/styles.scss */
+.small-list p {
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* line 751, ../sass/styles.scss */
+.small-list .images {
+  margin-bottom: 30px;
+  height: 108px;
+  text-align: center;
+}
+
+/*-------------------- PAGE  ABOUT -------------------*/
+/* line 756, ../sass/styles.scss */
+.about {
+  text-align: center;
+}
+
+/* line 759, ../sass/styles.scss */
+.about h2 {
+  color: #262626;
+  margin-bottom: 10px;
+  font-weight: 300;
+  line-height: 45px;
+}
+
+/* line 765, ../sass/styles.scss */
+.about h2 br {
+  display: none;
+}
+
+/* line 768, ../sass/styles.scss */
+.about h3 {
+  margin-bottom: 60px;
+}
+
+/*--------- launch --------*/
+/* line 772, ../sass/styles.scss */
+.launch {
+  height: 358px;
+  margin-bottom: 60px;
+  padding-top: 190px;
+  background: #83c9dc url(../images/img-about-rocket.png) no-repeat center top;
+  text-align: left;
+}
+
+/* line 779, ../sass/styles.scss */
+.launch h2 {
+  margin: 0 0 0 230px;
+  line-height: 50px;
+  font-weight: 300;
+  color: #fff;
+}
+
+/* line 785, ../sass/styles.scss */
+.launch h2 span {
+  font-size: 92px;
+  line-height: 100px;
+  font-weight: 800;
+}
+
+/* line 790, ../sass/styles.scss */
+.thank-you {
+  margin: 0 auto 0px;
+}
+
+/* line 793, ../sass/styles.scss */
+.thank-you .caption {
+  min-height: 50px;
+  padding: 25px 0;
+  background: #d45559;
+  font-size: 40px;
+  line-height: 46px;
+  font-weight: 300;
+  color: #fff;
+}
+
+/* line 802, ../sass/styles.scss */
+.thank-you .img-thanks {
+  /*height: 300px;*/
+}
+
+/* line 806, ../sass/styles.scss */
+.mission {
+  height: 550px;
+  padding: 100px 0;
+  margin-bottom: 60px;
+  background: url(../images/AboutUsMissionBg.jpg) no-repeat center 0px;
+}
+
+/* line 812, ../sass/styles.scss */
+.mission .text {
+  padding: 55px 50px 85px;
+  width: 840px;
+  margin: 0 auto;
+  background: rgba(38, 38, 38, 0.9);
+  text-align: center;
+}
+
+/* line 819, ../sass/styles.scss */
+.mission .caption {
+  color: #fff;
+  font-size: 130px;
+  margin-bottom: 30px;
+  line-height: 160px;
+  font-weight: 300;
+}
+
+/* line 826, ../sass/styles.scss */
+.mission p {
+  font-size: 28px;
+  line-height: 42px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+/* line 833, ../sass/styles.scss */
+.map {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+/* line 837, ../sass/styles.scss */
+.map .title-block {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+  font-size: 40px;
+  line-height: 55px;
+  font-weight: 300;
+  margin-bottom: 60px;
+}
+
+/* line 846, ../sass/styles.scss */
+.map .title-block br {
+  display: none;
+}
+
+/* line 849, ../sass/styles.scss */
+.map .title-block .animation-over {
+  position: absolute;
+  right: 60px;
+  top: 5px;
+}
+
+/* line 854, ../sass/styles.scss */
+.cofee {
+  position: relative;
+  height: 750px;
+  background: url(../images/AboutUsCoffee.jpg) no-repeat center -100px;
+}
+
+/* line 859, ../sass/styles.scss */
+.cofee .cofee-content {
+  float: right;
+  height: 680px;
+  padding: 70px 80px 0;
+  background: rgba(38, 38, 38, 0.9);
+}
+
+/* line 865, ../sass/styles.scss */
+.cofee h2 {
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 180px;
+}
+
+/* line 870, ../sass/styles.scss */
+.cofee h2 br {
+  display: none;
+}
+
+/* line 873, ../sass/styles.scss */
+.about-cofee {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+/* line 877, ../sass/styles.scss */
+.about-cofee h3 {
+  font-size: 90px;
+  font-weight: 600;
+  color: #fff;
+}
+
+/*-------- default styles ---------*/
+/* line 883, ../sass/styles.scss */
+.launch p {
+  margin-left: 270px;
+  font-size: 40px;
+}
+
+/* line 887, ../sass/styles.scss */
+.launch p span {
+  font-size: 92px;
+}
+
+/* line 890, ../sass/styles.scss */
+.launch .text {
+  width: 890px;
+  padding: 71px 50px 71px;
+}
+
+/*----------------------- PAGE FAQ ---------------------*/
+/* line 895, ../sass/styles.scss */
+.faq {
+  padding-bottom: 60px;
+}
+
+/* line 898, ../sass/styles.scss */
+.faq .form-ask {
+  padding: 0;
+  border: 0;
+  width: 100%;
+}
+
+/* line 903, ../sass/styles.scss */
+.faq .form-ask input[type='text'] {
+  width: 93.5%;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: 18px;
+}
+
+/* line 909, ../sass/styles.scss */
+.faq .form-ask textarea {
+  width: 93.5%;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: 18px;
+  height: 170px;
+}
+
+/* line 916, ../sass/styles.scss */
+.faq .form-ask .faq .form-ask .box-button {
+  text-align: right;
+  padding: 0;
+}
+
+/* line 920, ../sass/styles.scss */
+.faq .form-ask .btn-light-blue {
+  width: 200px;
+  padding: 20px 25px;
+}
+
+/* line 924, ../sass/styles.scss */
+.menu {
+  list-style: none;
+  margin: 0 0 60px 0;
+  padding: 0;
+}
+
+/* line 929, ../sass/styles.scss */
+.menu li {
+  padding: 22px 0 24px;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+/* line 933, ../sass/styles.scss */
+.menu li:last-child {
+  border: 0;
+}
+
+/* line 936, ../sass/styles.scss */
+.menu li.active a {
+  color: #1a1a1a;
+}
+
+/* line 939, ../sass/styles.scss */
+.menu li a {
+  font-size: 20px;
+  color: #8c8c8c;
+}
+
+/* line 943, ../sass/styles.scss */
+.menu li a:hover {
+  color: #1a1a1a;
+}
+
+/* line 947, ../sass/styles.scss */
+.menu li a:active,
+.menu li a:focus {
+  outline: 0;
+  text-decoration: none;
+}
+
+/* line 951, ../sass/styles.scss */
+.box-under-header {
+  height: 55px;
+  padding-top: 14px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+  background: #fafafa;
+}
+
+/* line 958, ../sass/styles.scss */
+.box-under-header h3 {
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+/* line 962, ../sass/styles.scss */
+.box-under-header .box-button {
+  position: absolute;
+  right: 0;
+  top: -6px;
+}
+
+/* line 967, ../sass/styles.scss */
+.box-under-header .box-button .btn-light-blue {
+  padding: 15px 30px;
+}
+
+/* line 970, ../sass/styles.scss */
+.box-under-header .box-button .btn-black {
+  padding: 15px 25px;
+  margin-right: 5px;
+}
+
+/* line 974, ../sass/styles.scss */
+.box-under-header .vertical-menu {
+  list-style: none;
+  text-align: center;
+  margin: 6px 0 0;
+}
+
+/* line 979, ../sass/styles.scss */
+.box-under-header .vertical-menu li {
+  display: inline-block;
+}
+
+/* line 982, ../sass/styles.scss */
+.box-under-header .vertical-menu li.active a {
+  border-bottom: 4px solid #262626;
+  padding-bottom: 25px;
+}
+
+/* line 986, ../sass/styles.scss */
+.box-under-header .vertical-menu li a {
+  display: block;
+  color: #262626;
+  font-size: 20px;
+  margin: 0 10px;
+  padding-bottom: 29px;
+}
+
+/* line 993, ../sass/styles.scss */
+.box-under-header .vertical-menu li a:hover {
+  border-bottom: 4px solid #262626;
+  padding-bottom: 25px;
+}
+
+/* search FAQ*/
+/* line 998, ../sass/styles.scss */
+.search {
+  position: relative;
+  padding: 0 10px;
+  border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  margin-bottom: 20px;
+  height: 60px;
+  border: 1px solid #d1d1d1;
+}
+
+/* line 1008, ../sass/styles.scss */
+.search form {
+  margin: 0;
+}
+
+/* line 1011, ../sass/styles.scss */
+.search input[type="text"] {
+  margin: 0;
+  padding: 0;
+  width: 83%;
+  height: 60px;
+  float: left;
+  box-shadow: none;
+  line-height: auto;
+  font-size: 18px;
+  color: #262626;
+  border: 0;
+  outline: 0;
+}
+
+/* line 1024, ../sass/styles.scss */
+.search input[type="text"]:focus {
+  box-shadow: none;
+  border: 0;
+}
+
+/* line 1028, ../sass/styles.scss */
+.search .btn-light-blue {
+  position: absolute;
+  width: 140px;
+  height: 62px;
+  top: -1px;
+  right: -1px;
+  padding: 0;
+  font-size: 20px;
+}
+
+/* line 1037, ../sass/styles.scss */
+.search-result .item {
+  padding: 25px 0 15px;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+/* line 1041, ../sass/styles.scss */
+.search-result .item:last-child {
+  border: 0;
+}
+
+/* line 1044, ../sass/styles.scss */
+.search-result .item h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #262626;
+  margin-bottom: 0;
+}
+
+/* line 1050, ../sass/styles.scss */
+.search-result .item p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #262626;
+}
+
+/*------------------ PAGE CONTACTS ----------------*/
+/* line 1056, ../sass/styles.scss */
+.contacts {
+  padding-bottom: 90px;
+}
+
+/* line 1059, ../sass/styles.scss */
+.contacts .header {
+  height: 513px;
+  margin-bottom: 90px;
+  background: url(../images/image-contacts.jpg) no-repeat center top;
+}
+
+/* line 1064, ../sass/styles.scss */
+.contacts .header p {
+  display: inline-block;
+  *display: inline;
+  padding: 5px 5px 15px;
+  margin: 0 0 5px;
+  font-size: 3.9em;
+  line-height: 1em;
+  font-weight: 300;
+  color: #1a1a1a;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* line 1075, ../sass/styles.scss */
+.contacts .header .text-container {
+  width: 600px;
+  margin: 0 auto;
+  padding-top: 164px;
+}
+
+/* line 1080, ../sass/styles.scss */
+.contacts .contact-info {
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+/* line 1085, ../sass/styles.scss */
+.contacts .contact-info h3 {
+  font-size: 25px;
+  line-height: 28px;
+  font-weight: 300;
+  color: #262626;
+  margin-bottom: 30px;
+}
+
+/* line 1092, ../sass/styles.scss */
+.contacts .contact-info p {
+  color: #000;
+  margin-bottom: 7px;
+}
+
+/* line 1096, ../sass/styles.scss */
+.contacts .social li {
+  text-align: center;
+}
+
+/* line 1099, ../sass/styles.scss */
+.social {
+  list-style: none;
+  margin: 50px 0 0;
+}
+
+/* line 1103, ../sass/styles.scss */
+.social li a {
+  display: inline-block;
+  *display: inline;
+  margin-bottom: 25px;
+}
+
+/* line 1108, ../sass/styles.scss */
+.social .twitter {
+  background-position: 0 0;
+}
+
+/* line 1111, ../sass/styles.scss */
+.social .facebook {
+  background-position: 0 -70px;
+}
+
+/* line 1114, ../sass/styles.scss */
+.social .google-plus {
+  background-position: 0 -140px;
+}
+
+/* line 1117, ../sass/styles.scss */
+.social .instagram {
+  background-position: 0 -207px;
+}
+
+/* line 1120, ../sass/styles.scss */
+.social .pinterest {
+  background-position: 0 -275px;
+}
+
+/* line 1123, ../sass/styles.scss */
+.form-ask {
+  width: 626px;
+  min-height: 615px;
+  padding: 20px 0 0 40px;
+  border-left: 1px solid #d1d1d1;
+}
+
+/* line 1129, ../sass/styles.scss */
+.form-ask p {
+  font-size: 18px;
+}
+
+/* line 1132, ../sass/styles.scss */
+.form-ask form {
+  margin-top: 95px;
+}
+
+/* line 1136, ../sass/styles.scss */
+.form-ask input[type="text"] {
+  height: 48px;
+  line-height: auto;
+  *line-height: 48px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+
+/* line 1143, ../sass/styles.scss */
+.form-ask .input-middle {
+  width: 265px;
+}
+
+/* line 1146, ../sass/styles.scss */
+.form-ask textarea {
+  width: 573px;
+  height: 215px;
+  padding: 15px;
+}
+
+/* line 1151, ../sass/styles.scss */
+.form-ask .btn-red {
+  width: 214px;
+}
+
+/* line 1154, ../sass/styles.scss */
+.form-ask .box-button {
+  padding: 20px 18px 0 0;
+}
+
+/*---------------------- PAGE API -----------------------*/
+/* line 1158, ../sass/styles.scss */
+.api .header {
+  height: 255px;
+  padding-top: 180px;
+  margin-bottom: 60px;
+  background: url(../images/image-api.jpg) no-repeat center top;
+  text-align: center;
+}
+
+/* line 1165, ../sass/styles.scss */
+.api .header h1 {
+  color: #fff;
+  line-height: auto;
+}
+
+/* line 1169, ../sass/styles.scss */
+.api .header .icon-api {
+  display: inline-block;
+  *display: inline;
+  /*
+    width: 100px;
+    height: 100px;
+  */
+  margin: -10px 20px 0 0;
+  vertical-align: tmiddle;
+  /*   background: url(../images/icon-api.png) no-repeat 0 0; */
+}
+
+/* line 1180, ../sass/styles.scss */
+.api h2 {
+  margin-bottom: 40px;
+  font-weight: 400;
+}
+
+/* line 1184, ../sass/styles.scss */
+.api h3.offset-top {
+  margin: 50px 0 20px;
+}
+
+/* line 1187, ../sass/styles.scss */
+.api .examples {
+  list-style: none;
+  margin: 0 0 0 -30px;
+  padding: 0;
+}
+
+/* line 1192, ../sass/styles.scss */
+.api .examples li {
+  display: inline-block;
+  padding: 0;
+  margin: 0 0 30px 30px;
+}
+
+/* line 1197, ../sass/styles.scss */
+.api .examples img {
+  margin-bottom: 15px;
+}
+
+/* line 1200, ../sass/styles.scss */
+.api .examples span {
+  display: block;
+  font-style: italic;
+}
+
+/* line 1204, ../sass/styles.scss */
+.box {
+  border: 1px #d1d1d1 solid;
+  background: #fafafa;
+  padding: 30px 0;
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+
+/*------------------------ PAGE JOBS ----------------------*/
+/* line 1216, ../sass/styles.scss */
+.jobs {
+  padding-bottom: 90px;
+}
+
+/* line 1219, ../sass/styles.scss */
+.jobs .header {
+  height: 512px;
+  margin-bottom: 100px;
+  background: #7ac292 url(../images/clouds.png) no-repeat center top;
+}
+
+/* line 1224, ../sass/styles.scss */
+.jobs .header .container {
+  width: 790px;
+  padding-top: 168px;
+}
+
+/* line 1228, ../sass/styles.scss */
+.jobs .header h2 .icon-suitcase {
+  float: left;
+  margin-right: 40px;
+  padding: 0;
+  position: relative;
+  bottom: 35px;
+}
+
+/* line 1235, ../sass/styles.scss */
+.jobs .header h2 {
+  padding: 35px 0 0 0;
+  background: url(../images/icon-suitcase.png) no-repeat 20px 0;
+  font-weight: 300;
+  color: #fff;
+}
+
+/* line 1241, ../sass/styles.scss */
+.jobs .header h2 span {
+  display: block;
+  font-size: 90px;
+  line-height: 90px;
+  font-weight: bold;
+}
+
+/* line 1247, ../sass/styles.scss */
+.jobs .header h3 {
+  font-weight: 300;
+}
+
+/* line 1250, ../sass/styles.scss */
+.jobs .box-join {
+  text-align: center;
+  padding-bottom: 80px;
+  margin-bottom: 105px;
+  border-bottom: 1px solid #cccccc;
+}
+
+/* line 1256, ../sass/styles.scss */
+.jobs .box-join h2 {
+  font-size: 42px;
+  margin-bottom: 25px;
+}
+
+/* line 1260, ../sass/styles.scss */
+.jobs .box-join p {
+  line-height: 25px;
+  margin-bottom: 5px;
+  color: #373737;
+}
+
+/* line 1265, ../sass/styles.scss */
+.jobs .box-join .box-button {
+  padding-top: 45px;
+}
+
+/* line 1268, ../sass/styles.scss */
+.jobs .box-join .box-button .btn-red {
+  width: 254px;
+  padding: 30px 25px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* line 1274, ../sass/styles.scss */
+.jobs .list {
+  margin: 0 0 30px -30px;
+}
+
+/* line 1277, ../sass/styles.scss */
+.jobs .list li {
+  width: 290px;
+  margin: 0 0 60px 30px;
+  text-align: center;
+  border: 0;
+}
+
+/* line 1283, ../sass/styles.scss */
+.jobs .list li h3 {
+  font-size: 34px;
+  color: #262626;
+  margin-bottom: 35px;
+}
+
+/* line 1288, ../sass/styles.scss */
+.jobs .list li p {
+  color: #373737;
+}
+
+/* line 1291, ../sass/styles.scss */
+.jobs h3 {
+  color: #83c9dc;
+  font-size: 32px;
+  text-align: center;
+}
+
+/*----------------- PAGE FEATURES ----------------*/
+/* line 1297, ../sass/styles.scss */
+.features {
+  padding-bottom: 50px;
+}
+
+/* line 1300, ../sass/styles.scss */
+.features .features-animation {
+  margin-bottom: 40px;
+  padding-top: 0;
+  text-align: center;
+  height: 1152px;
+  background: #83c9dc url(../images/clouds-features.png) no-repeat center 0;
+}
+
+/* line 1307, ../sass/styles.scss */
+.features .features-animation h1 {
+  margin-bottom: 10px;
+  padding-top: 100px;
+  font-size: 62px;
+  line-height: 62px;
+  font-weight: 600;
+  color: #fff;
+}
+
+/* line 1315, ../sass/styles.scss */
+.features .features-animation h2 {
+  font-size: 35px;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+/* line 1321, ../sass/styles.scss */
+.features .features-animation .box-partner {
+  position: relative;
+  width: 730px;
+  margin: 0 auto;
+}
+
+/* line 1326, ../sass/styles.scss */
+.features .features-animation .box-partner .circle {
+  position: absolute;
+  z-index: 2;
+  width: 278px;
+  height: 278px;
+  text-align: center;
+  font-size: 25px;
+  line-height: 30px;
+  color: #3c3e4d;
+  border-radius: 100% 100% 100% 100%;
+  -webkit-border-radius: 100% 100% 100% 100%;
+  -moz-border-radius: 100% 100% 100% 100%;
+}
+
+/* line 1339, ../sass/styles.scss */
+.features .features-animation .box-partner .circle:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 278px;
+  height: 278px;
+  left: 0px;
+  top: 0px;
+  background: #fff;
+  border-radius: 100% 100% 100% 100%;
+  -webkit-border-radius: 100% 100% 100% 100%;
+  -moz-border-radius: 100% 100% 100% 100%;
+}
+
+/* line 1352, ../sass/styles.scss */
+.features .features-animation .box-partner .circle:nth-child(1) {
+  top: -145px;
+  left: 250px;
+  height: 178px;
+  padding-top: 100px;
+  border: 10px solid #bce0eb;
+  font-size: 33px;
+  line-height: 38px;
+}
+
+/* line 1361, ../sass/styles.scss */
+.features .features-animation .box-partner .circle:nth-child(2) {
+  top: 50px;
+  left: -130px;
+  height: 237px;
+  padding-top: 41px;
+  border: 10px solid #f5d48d;
+}
+
+/* line 1368, ../sass/styles.scss */
+.features .features-animation .box-partner .circle:nth-child(3) {
+  top: 220px;
+  right: -145px;
+  height: 237px;
+  padding-top: 41px;
+  border: 10px solid #7ac292;
+}
+
+/* line 1375, ../sass/styles.scss */
+.features .features-animation .box-partner .circle:nth-child(4) {
+  left: 218px;
+  bottom: -140px;
+  height: 192px;
+  padding-top: 86px;
+  border: 10px solid #7089ad;
+}
+
+/* line 1382, ../sass/styles.scss */
+.features .features-animation .box-partner .circle:nth-child(4) img {
+  margin-bottom: 40px;
+}
+
+/* line 1385, ../sass/styles.scss */
+.features .features-animation .box-partner .circle span {
+  display: block;
+}
+
+/* line 1388, ../sass/styles.scss */
+.features .features-animation .box-partner .circle img {
+  margin-bottom: 30px;
+}
+
+/* line 1391, ../sass/styles.scss */
+.features .container {
+  margin: 0 auto;
+}
+
+/* line 1394, ../sass/styles.scss */
+.features h2.border {
+  margin-bottom: 100px;
+  font-size: 38px;
+  line-height: 50px;
+  font-weight: 600;
+  color: #3c3e4d;
+}
+
+/* line 1401, ../sass/styles.scss */
+.features .list-text-img {
+  list-style: none;
+  margin: 0 0 30px;
+  padding: 0;
+}
+
+/* line 1406, ../sass/styles.scss */
+.features .list-text-img li {
+  margin-bottom: 60px;
+}
+
+/* line 1410, ../sass/styles.scss */
+.features .list-text-img li:before,
+.features .list-text-img li:after {
+  display: table;
+  content: "";
+}
+
+/* line 1414, ../sass/styles.scss */
+.features .list-text-img li:after {
+  clear: both;
+}
+
+/* line 1417, ../sass/styles.scss */
+.features .list-text-img li:nth-child(even) .img {
+  float: right;
+  margin-left: 20px;
+}
+
+/* line 1421, ../sass/styles.scss */
+.features .list-text-img li:nth-child(odd) .img {
+  float: left;
+  margin-right: 120px;
+}
+
+/* line 1425, ../sass/styles.scss */
+.features .list-text-img li:nth-child(2) .text {
+  padding-top: 50px;
+}
+
+/* line 1428, ../sass/styles.scss */
+.features .list-text-img li .img {
+  width: 405px;
+  text-align: center;
+}
+
+/* line 1432, ../sass/styles.scss */
+.features .list-text-img li .text {
+  padding-top: 95px;
+  font-size: 35px;
+  line-height: 40px;
+}
+
+/* line 1437, ../sass/styles.scss */
+.features .it-easy {
+  height: 863px;
+  margin-bottom: 110px;
+  padding-top: 115px;
+  background: #3c3e4d;
+}
+
+/* line 1443, ../sass/styles.scss */
+.features .it-easy h2.border {
+  font-size: 38px;
+  line-height: 48px;
+  margin-bottom: 5px;
+  color: #ffffff;
+  background: url(../images/light-pixel.jpg) repeat-x 0 27px;
+}
+
+/* line 1450, ../sass/styles.scss */
+.features .it-easy h2.border span {
+  background: #3c3e4d;
+}
+
+/* line 1453, ../sass/styles.scss */
+.features .it-easy h3 {
+  margin-bottom: 90px;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* line 1459, ../sass/styles.scss */
+.features .it-easy .list-easy-things {
+  margin: 0 0 0 -35px;
+}
+
+/* line 1463, ../sass/styles.scss */
+.features .it-easy .list-easy-things:before,
+.features .it-easy .list-easy-things:after {
+  display: table;
+  content: "";
+}
+
+/* line 1467, ../sass/styles.scss */
+.features .it-easy .list-easy-things li {
+  display: inline-block;
+  *display: inline;
+  width: 450px;
+  margin: 0 0 60px 35px;
+  vertical-align: middle;
+}
+
+/* line 1474, ../sass/styles.scss */
+.features .it-easy .list-easy-things:after {
+  clear: both;
+}
+
+/* line 1477, ../sass/styles.scss */
+.features .it-easy .list-easy-things .img {
+  width: 96px;
+  margin-right: 35px;
+  display: inline-block;
+  *display: inline;
+  text-align: center;
+}
+
+/* line 1484, ../sass/styles.scss */
+.features .it-easy .list-easy-things .text {
+  display: inline-block;
+  *display: inline;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+}
+
+/* line 1491, ../sass/styles.scss */
+.features .required h2 {
+  margin-bottom: 30px;
+}
+
+/* line 1494, ../sass/styles.scss */
+.features .required h3 {
+  text-align: center;
+  font-weight: 400;
+  color: #3c3e4d;
+  margin-bottom: 20px;
+}
+
+/* line 1500, ../sass/styles.scss */
+.features .required .img-brain {
+  background: #83c9dc;
+  text-align: center;
+  margin-bottom: 30px;
+  height: 246px;
+}
+
+/* line 1506, ../sass/styles.scss */
+.features .required .keep-users {
+  list-style: none;
+  margin: 0 0 40px;
+}
+
+/* line 1510, ../sass/styles.scss */
+.features .required .keep-users li {
+  width: auto;
+  padding: 25px 0;
+  margin: 0 auto 2px;
+  background: #f0f3f7;
+  text-align: center;
+}
+
+/* line 1517, ../sass/styles.scss */
+.features .required .keep-users li:first-child {
+  border-right: 0;
+}
+
+/* line 1520, ../sass/styles.scss */
+.features .required .keep-users li .image {
+  height: 325px;
+  margin-bottom: 5px;
+}
+
+/* line 1524, ../sass/styles.scss */
+.features .required .keep-users li h4 {
+  font-size: 25px;
+  line-height: 32px;
+  color: #3c3e4d;
+  font-weight: 400;
+}
+
+/* line 1530, ../sass/styles.scss */
+.features .required .box-black {
+  position: relative;
+  padding: 32px 330px 35px 40px;
+  background: #3c3e4d;
+}
+
+/* line 1535, ../sass/styles.scss */
+.features .required .box-black h3 {
+  font-weight: 400;
+  color: #fff;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+/* line 1541, ../sass/styles.scss */
+.features .required .box-black h3 b {
+  font-weight: 300;
+}
+
+/* line 1544, ../sass/styles.scss */
+.features .required .box-black .box-button {
+  position: absolute;
+  right: 40px;
+  top: 65px;
+}
+
+/* line 1549, ../sass/styles.scss */
+.features .required .box-black .box-button .btn-green {
+  width: 215px;
+  padding: 20px 20px;
+}
+
+/*---------- PAGE PLATFORM ANDROID --------------*/
+/* line 1554, ../sass/styles.scss */
+.platforms {
+  padding-bottom: 50px;
+  min-height: 1000px;
+}
+
+/* line 1558, ../sass/styles.scss */
+.platforms h2 {
+  font-weight: 400;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+/* line 1563, ../sass/styles.scss */
+.platforms h4 {
+  color: #262626;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+/* line 1568, ../sass/styles.scss */
+.platforms h5 {
+  color: #00aeef;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* line 1573, ../sass/styles.scss */
+.platforms .subtitle {
+  margin-top: -40px;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+/* line 1578, ../sass/styles.scss */
+.platforms .list {
+  margin-left: -15px;
+}
+
+/* line 1581, ../sass/styles.scss */
+.platforms .list li {
+  width: 200px;
+  margin-left: 15px;
+  border: 0;
+}
+
+/* line 1586, ../sass/styles.scss */
+.platforms .list h3 {
+  font-weight: 400;
+}
+
+/* line 1589, ../sass/styles.scss */
+.platforms .list p {
+  margin-bottom: 15px;
+}
+
+/* line 1592, ../sass/styles.scss */
+.platforms .list .btn-light-blue {
+  width: 190px;
+}
+
+/* line 1595, ../sass/styles.scss */
+.platforms .list-marker {
+  list-style: none;
+  margin: 0;
+}
+
+/* line 1599, ../sass/styles.scss */
+.platforms .list-marker li {
+  margin: 0 0 15px 5px;
+  padding-left: 35px;
+  background: url(../images/marker.png) no-repeat 0 9px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+/* line 1606, ../sass/styles.scss */
+.platforms p {
+  line-height: 30px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+/* line 1611, ../sass/styles.scss */
+.platforms .image {
+  margin-bottom: 50px;
+}
+
+/* line 1614, ../sass/styles.scss */
+.platforms .ios-sdk {
+  position: relative;
+  height: 550px;
+}
+
+/* line 1618, ../sass/styles.scss */
+.platforms .ios-sdk img {
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+/* line 1623, ../sass/styles.scss */
+.platforms .btn-light-blue {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 18px;
+}
+
+/* line 1628, ../sass/styles.scss */
+.platforms .offset-bottom {
+  margin-bottom: 30px;
+}
+
+/* line 1631, ../sass/styles.scss */
+.platforms .content-column {
+  margin-bottom: 25px;
+}
+
+/* line 1635, ../sass/styles.scss */
+.platforms .content-column:before,
+.platforms .content-column:after {
+  display: table;
+  content: "";
+}
+
+/* line 1639, ../sass/styles.scss */
+.platforms .content-column:after {
+  clear: both;
+}
+
+/* line 1642, ../sass/styles.scss */
+.platforms .content-column p {
+  line-height: 22px;
+  font-size: 15px;
+}
+
+/* line 1646, ../sass/styles.scss */
+.platforms .content-column ul {
+  list-style: none;
+  margin: 0 0 0 -25px;
+  padding: 0;
+}
+
+/* line 1651, ../sass/styles.scss */
+.platforms .content-column ul li {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 300px;
+  margin: 0 0 0 25px;
+  padding: 0;
+  vertical-align: top;
+}
+
+/* line 1660, ../sass/styles.scss */
+.grey-label {
+  border: 1px solid #a6a6a6;
+  background: #f3f3f3;
+  border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  padding: 10px 10px;
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+
+/* line 1670, ../sass/styles.scss */
+.grey-label p {
+  margin-bottom: 0px;
+}
+
+/* line 1673, ../sass/styles.scss */
+span.grey-label {
+  *display: inline;
+  display: inline-block;
+  margin-bottom: 0px;
+  padding: 0px 10px;
+}
+
+/*------------------- PAGE PRICING ----------------*/
+/* line 1680, ../sass/styles.scss */
+.pricing {
+  padding: 40px 0 120px;
+}
+
+/* line 1683, ../sass/styles.scss */
+.pricing h2.border {
+  font-size: 40px;
+}
+
+/* line 1686, ../sass/styles.scss */
+.pricing h3 {
+  font-size: 35px;
+  font-weight: 300;
+}
+
+/* line 1690, ../sass/styles.scss */
+.pricing .box-under-header h3 {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+/* line 1694, ../sass/styles.scss */
+.pie {
+  width: 322px;
+  height: 322px;
+  background-color: #cceffc;
+  border-radius: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+/* line 1702, ../sass/styles.scss */
+.pie1 {
+  position: absolute;
+  clip: rect(0px, 322px, 322px, 161px);
+  -o-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  background: #cceffc;
+}
+
+/* line 1711, ../sass/styles.scss */
+.pie2 {
+  position: absolute;
+  clip: rect(0px, 161px, 322px, 0px);
+  transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  background: #cceffc;
+}
+
+/* line 1720, ../sass/styles.scss */
+.hold {
+  width: 322px;
+  height: 322px;
+  position: absolute;
+  z-index: 1;
+}
+
+/* line 1726, ../sass/styles.scss */
+.hold1 {
+  clip: rect(0px, 322px, 322px, 161px);
+}
+
+/* line 1729, ../sass/styles.scss */
+.hold2 {
+  clip: rect(0px, 161px, 322px, 0px);
+}
+
+/* line 1732, ../sass/styles.scss */
+.bg {
+  width: 321px;
+  height: 321px;
+  background-color: #00aeef;
+  border-radius: 100%;
+  position: absolute;
+  left: 0px;
+  top: 1px;
+}
+
+/* line 1741, ../sass/styles.scss */
+.time {
+  width: 233px;
+  height: 233px;
+  margin: 44px 0 0 44px;
+  background-color: #fff;
+  border-radius: 100%;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  line-height: 160px;
+  font-size: 35px;
+  font-weight: 300;
+}
+
+/* line 1754, ../sass/styles.scss */
+.time span {
+  position: absolute;
+  display: block;
+  padding-top: 15px;
+  font-size: 84px;
+  left: 40px;
+}
+
+/* line 1761, ../sass/styles.scss */
+.time .text-bar {
+  position: absolute;
+  display: block;
+  font-size: 20px;
+  line-height: 20px;
+  left: 40px;
+  bottom: 35px;
+}
+
+/*---------------- PAGE PRODUCTS ------------------*/
+/* line 1770, ../sass/styles.scss */
+#products-scale1000 {
+  display: block;
+}
+
+/* line 1776, ../sass/styles.scss */
+#products-scale1200,
+#products-scale748,
+#products-scale-small,
+#products-mobile {
+  display: none;
+}
+
+/* line 1779, ../sass/styles.scss */
+.products {
+  padding-bottom: 60px;
+}
+
+/* line 1782, ../sass/styles.scss */
+.products .categories {
+  position: absolute;
+  right: 0px;
+  top: 2px;
+  width: 240px;
+  padding: 6px 0 0;
+  color: #909090;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* line 1792, ../sass/styles.scss */
+.products .categories .caption {
+  cursor: pointer;
+}
+
+/* line 1795, ../sass/styles.scss */
+.products .categories:hover {
+  color: #00aeef;
+}
+
+/*
+.products .categories:hover .icon-menu {
+  background-position: -51px -90px;
+  border: 1px solid #00aeef;
+}
+*/
+/* line 1804, ../sass/styles.scss */
+.products .categories.opened {
+  color: #00aeef;
+}
+
+/*
+.products .categories.opened .icon-menu {
+  margin-top: -7px;
+  background-position: -50px -88px;
+  border: none;
+  margin-right: 12px;
+}
+*/
+/*
+.products .categories .icon-menu {
+  width: 38px;
+  height: 35px;
+  margin-top: -6px;
+  margin-right: 10px;
+  border: 1px solid #d1d1d1;
+  background-position: -21px -90px;
+}
+*/
+/* line 1825, ../sass/styles.scss */
+.products .categories ul {
+  position: absolute;
+  display: none;
+  z-index: 100;
+  top: 58px;
+  left: 0;
+  width: 158px;
+  padding: 0 40px 10px;
+  margin: 0;
+  list-style: none;
+  border: 1px solid #d1d1d1;
+  border-top: 0;
+  background: #FAFAFA;
+}
+
+/* line 1839, ../sass/styles.scss */
+.products .categories ul li {
+  padding: 17px 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+/* line 1843, ../sass/styles.scss */
+.products .categories ul li:last-child {
+  border: 0;
+}
+
+/* line 1846, ../sass/styles.scss */
+.products .categories ul li a {
+  display: block;
+  color: #000000;
+  font-size: 18px;
+}
+
+/* line 1851, ../sass/styles.scss */
+.products .categories ul li a:hover {
+  color: #00aeef;
+}
+
+/* line 1854, ../sass/styles.scss */
+.products .container-products {
+  position: relative;
+  width: 760px;
+  margin: 0 auto;
+}
+
+/* line 1859, ../sass/styles.scss */
+.products .container-products .list-products {
+  position: relative;
+  margin: 0 0 0 -20px;
+}
+
+/* line 1864, ../sass/styles.scss */
+.products .container-products .list-products:before,
+.products .container-products .list-products:after {
+  display: table;
+  content: "";
+}
+
+/* line 1868, ../sass/styles.scss */
+.products .container-products .list-products:after {
+  clear: both;
+}
+
+/* line 1871, ../sass/styles.scss */
+.products .container-products .list-products .title-gallery {
+  width: 760px;
+  height: 195px;
+  float: left;
+  padding: 0;
+  margin: 0 0 20px 20px;
+  padding: 45px 0 0;
+  background: #000000;
+  color: #fff;
+  font-size: 51px;
+  text-align: center;
+  font-weight: 400;
+}
+
+/* line 1884, ../sass/styles.scss */
+.products .container-products .list-products .product {
+  position: relative;
+  width: 240px;
+  height: 240px;
+  float: left;
+  margin: 0 0 20px 20px;
+}
+
+/* line 1891, ../sass/styles.scss */
+.products .container-products .list-products .product a {
+  display: block;
+}
+
+/* line 1894, ../sass/styles.scss */
+.products .container-products .list-products .product a:hover span {
+  background: #83c9dc;
+}
+
+/* line 1897, ../sass/styles.scss */
+.products .container-products .list-products .product a span {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 0;
+  width: 214px;
+  height: 38px;
+  padding: 8px 13px 15px;
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* line 1912, ../sass/styles.scss */
+.products .container-products .list-products .product a span h4 {
+  font-size: 22px;
+  line-height: 22px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+/* line 1918, ../sass/styles.scss */
+.products .container-products .list-products .product a span h5 {
+  font-size: 15px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+/*--------------------- PAGE TEAM --------------------*/
+/* line 1924, ../sass/styles.scss */
+.team .header {
+  height: 475px;
+  padding-top: 35px;
+  margin-bottom: 85px;
+  background: #f5d48d url(../images/clouds.png) no-repeat center 0;
+}
+
+/* line 1930, ../sass/styles.scss */
+.team .header .container {
+  height: 476px;
+  background: url(../images/leader.png) no-repeat left 0;
+}
+
+/* line 1934, ../sass/styles.scss */
+.team .header .container .text {
+  margin-left: 297px;
+  padding-top: 160px;
+}
+
+/* line 1938, ../sass/styles.scss */
+.team .header .container .text h1 {
+  font-size: 92px;
+  line-height: 92px;
+  font-weight: 600;
+  color: #fff;
+}
+
+/* line 1944, ../sass/styles.scss */
+.team .header .container .text h2 {
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+/* line 1949, ../sass/styles.scss */
+.team .list-developers {
+  margin: 0 0 0 -20px;
+}
+
+/* line 1953, ../sass/styles.scss */
+.team .list-developers:before,
+.team .list-developers:after {
+  display: table;
+  content: "";
+}
+
+/* line 1957, ../sass/styles.scss */
+.team .list-developers:after {
+  clear: both;
+}
+
+/* line 1960, ../sass/styles.scss */
+.team .list-developers .developer {
+  width: 460px;
+  float: left;
+  padding-bottom: 35px;
+  margin: 0 0 40px 20px;
+  border-bottom: 1px solid #cccccc;
+}
+
+/* line 1967, ../sass/styles.scss */
+.team .list-developers .developer.last {
+  border: 0;
+}
+
+/* line 1970, ../sass/styles.scss */
+.team .list-developers .developer .caption {
+  height: 120px;
+}
+
+/* line 1973, ../sass/styles.scss */
+.team .list-developers .developer .caption .image {
+  width: 215px;
+  overflow: hidden;
+  float: left;
+  text-align: right;
+  position: relative;
+  right: 30px;
+}
+
+/* line 1981, ../sass/styles.scss */
+.team .list-developers .developer .caption .text {
+  overflow: hidden;
+}
+
+/* line 1984, ../sass/styles.scss */
+.team .list-developers .developer .caption .text h2 {
+  font-size: 42px;
+  font-weight: 300;
+  color: #373737;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+/* line 1991, ../sass/styles.scss */
+.team .list-developers .developer .caption .text p {
+  font-size: 18px;
+  color: #373737;
+  margin-bottom: 0;
+}
+
+/* line 1996, ../sass/styles.scss */
+.team .list-developers .developer .details .clearfix {
+  margin-bottom: 10px;
+}
+
+/* line 1999, ../sass/styles.scss */
+.team .list-developers .developer .details .notice {
+  color: #373737;
+  font-size: 15px;
+}
+
+/* line 2003, ../sass/styles.scss */
+.team .list-developers .developer .details label {
+  width: 200px;
+  float: left;
+  padding: 9px 17px 0 0;
+  font-size: 18px;
+  line-height: 22px;
+  color: #373737;
+  text-align: right;
+  white-space: nowrap;
+  cursor: default;
+}
+
+/* line 2014, ../sass/styles.scss */
+.team .list-developers .developer .details .progress-bar {
+  width: 226px;
+  height: 40px;
+  float: left;
+  padding: 7px;
+  border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  background: #373737;
+  color: #fff;
+}
+
+/* line 2025, ../sass/styles.scss */
+.team .list-developers .developer .details .notice label {
+  width: auto;
+  float: none;
+  text-align: center;
+}
+
+/* line 2030, ../sass/styles.scss */
+.team .list-developers .developer .details .progress-bar .progress {
+  width: 50px;
+  height: 40px;
+  float: left;
+  border-radius: 2px 2px 2px 2px;
+  -webkit-border-radius: 2px 2px 2px 2px;
+  -moz-border-radius: 2px 2px 2px 2px;
+}
+
+/* line 2038, ../sass/styles.scss */
+.team .list-developers .developer .details .progress-bar .progress.cofee-drink {
+  background: #83c9dc;
+}
+
+/* line 2041, ../sass/styles.scss */
+.team .list-developers .developer .details .progress-bar .progress.eye {
+  background: #7ac292;
+}
+
+/* line 2044, ../sass/styles.scss */
+.team .list-developers .developer .details .progress-bar .progress.cloud {
+  background: #d45559;
+}
+
+/* line 2047, ../sass/styles.scss */
+.team .list-developers .developer .details .progress-bar .progress.pencil {
+  background: #b7a788;
+}
+
+/* line 2050, ../sass/styles.scss */
+.team .list-developers .developer .details .progress-bar span {
+  display: inline-block;
+  float: left;
+  color: #fff;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+/*-------------------- Coming Soon -----------------*/
+/* line 2061, ../sass/styles.scss */
+.modal {
+  width: 560px;
+  padding: 20px;
+  border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+}
+
+/* line 2068, ../sass/styles.scss */
+.modal.fade.in {
+  top: 20%;
+}
+
+/* line 2071, ../sass/styles.scss */
+.modal-header {
+  border: 0;
+}
+
+/* line 2074, ../sass/styles.scss */
+.modal-body {
+  text-align: center;
+  padding: 50px 0 50px;
+}
+
+/* line 2078, ../sass/styles.scss */
+.modal-body h2 {
+  margin-bottom: 5px;
+}
+
+/* line 2081, ../sass/styles.scss */
+.modal-body p {
+  font-size: 18px;
+}
+
+/* line 2084, ../sass/styles.scss */
+.modal-footer {
+  padding: 30px 0 0;
+  background: #fff;
+}
+
+/* line 2088, ../sass/styles.scss */
+.leave-email {
+  white-space: nowrap;
+}
+
+/* line 2091, ../sass/styles.scss */
+.leave-email input[type="text"] {
+  width: 280px;
+  height: 60px;
+  line-height: 22px;
+  padding: 0 20px;
+  float: left;
+  margin-right: 20px;
+}
+
+/* line 2099, ../sass/styles.scss */
+.leave-email .btn-green {
+  padding: 21px 15px;
+  border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+}
+
+/* line 2105, ../sass/styles.scss */
+.close {
+  position: absolute;
+  right: 20px;
+  top: 18px;
+  display: block;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+/* line 2113, ../sass/styles.scss */
+#join-form {
+  height: 530px;
+  padding-top: 70px;
+  background: #595d66;
+  display: none;
+}
+
+/* line 2119, ../sass/styles.scss */
+#join-form .cross {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+  background: url(../images/iconCross20-20.png) no-repeat 0 0;
+  cursor: pointer;
+}
+
+/* line 2128, ../sass/styles.scss */
+#join-form h2 {
+  color: #fff;
+  font-size: 34px;
+  line-height: 44px;
+  margin-bottom: 55px;
+}
+
+/* line 2134, ../sass/styles.scss */
+#join-form .control {
+  margin: 0 0 0 -30px;
+}
+
+/* line 2137, ../sass/styles.scss */
+#join-form input[type="text"] {
+  margin: 0 0 20px 30px;
+  height: 52px;
+  width: 425px;
+  float: left;
+  border: 0;
+}
+
+/* line 2144, ../sass/styles.scss */
+#join-form input[type="text"]:focus {
+  border: 0;
+}
+
+/* line 2147, ../sass/styles.scss */
+#join-form .btn-green {
+  margin-left: 30px;
+  float: left;
+  padding: 20px 25px;
+  width: 455px;
+}
+
+/*------------------------ FOOTER ----------------------*/
+/* line 2154, ../sass/styles.scss */
+footer {
+  position: relative;
+  z-index: 15;
+  padding: 40px 0;
+  border-top: 1px solid #d1d1d1;
+  background: #fafafa;
+}
+
+/* line 2161, ../sass/styles.scss */
+footer h4 {
+  text-align: center;
+  font-size: 15px;
+  color: #8a8a8a;
+}
+
+/* line 2166, ../sass/styles.scss */
+.footer-menu {
+  text-align: center;
+  list-style: none;
+  margin: 0 0 30px;
+  padding: 0;
+}
+
+/* line 2172, ../sass/styles.scss */
+.footer-menu li {
+  display: inline;
+  margin: 0;
+}
+
+/* line 2176, ../sass/styles.scss */
+.footer-menu li a {
+  color: #1a1a1a;
+  font-size: 17px;
+  line-height: 36px;
+  margin: 0 10px;
+}
+
+/* line 2182, ../sass/styles.scss */
+.footer-menu li a:hover {
+  color: #26B7FF;
+}
+
+/* line 2185, ../sass/styles.scss */
+.download {
+  text-align: center;
+}
+
+/* line 2188, ../sass/styles.scss */
+.download a {
+  display: inline-block;
+  width: 180px;
+  height: 60px;
+  margin: 5px 10px 25px;
+}
+
+/* line 2194, ../sass/styles.scss */
+.appstore {
+  background-image: url(../images/btn-appstore.png);
+}
+
+/* line 2197, ../sass/styles.scss */
+.googleplay {
+  background-image: url(../images/btn-googleplay.png);
+}
+
+/*---------------- FORMS ----------*/
+/* line 2202, ../sass/styles.scss */
+input[type="text"], input[type="password"],
+textarea {
+  font-size: 20px;
+  color: #363340;
+  border: 2px solid #d4d4d6;
+  border-radius: 0;
+  box-shadow: none;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+
+/*-------------BUTTONS ------------*/
+/* line 2217, ../sass/styles.scss */
+.btn {
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 4px 4px 4px 4px;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  -moz-border-radius: 4px 4px 4px 4px;
+  text-align: center;
+  font-weight: 400;
+  line-height: auto;
+  text-shadow: none;
+}
+
+/* line 2227, ../sass/styles.scss */
+.btn:focus {
+  outline: 0;
+  transition: none;
+}
+
+/* line 2231, ../sass/styles.scss */
+.btn-red {
+  padding: 21px 25px;
+  background: #d45559;
+  color: #fff;
+  text-shadow: none;
+  font-size: 20px;
+  border: 0;
+  border-bottom: 2px solid #a14043;
+}
+
+/* line 2243, ../sass/styles.scss */
+.btn-red:hover,
+.btn-red:active,
+.btn-red.active,
+.btn-red:focus {
+  background: #ff666b;
+  color: #fff;
+}
+
+/* line 2247, ../sass/styles.scss */
+.btn-green {
+  padding: 30px 25px;
+  background: #7ac292;
+  color: #fff;
+  text-shadow: none;
+  font-size: 20px;
+  border: 0;
+  border-bottom: 2px solid #629c75;
+  border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+}
+
+/* line 2262, ../sass/styles.scss */
+.btn-green:hover,
+.btn-green:active,
+.btn-green.active,
+.btn-green:focus {
+  background: #8adba5;
+  color: #fff;
+}
+
+/* line 2266, ../sass/styles.scss */
+.btn-blue {
+  display: inline-block;
+  *display: inline;
+  width: 304px;
+  padding: 20px 0 22px;
+  background: #83c9dc;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  border-bottom: 2px solid #659aa8;
+}
+
+/* line 2280, ../sass/styles.scss */
+.btn-blue:hover,
+.btn-blue:active,
+.btn-blue.active,
+.btn-blue:focus {
+  color: #fff;
+  text-decoration: none;
+  background: #93e0f5;
+}
+
+/* line 2285, ../sass/styles.scss */
+.btn-light-blue {
+  padding: 15px 25px;
+  background: #00aeef;
+  color: #fff;
+  text-shadow: none;
+  font-weight: 400;
+  font-size: 20px;
+  border: 0;
+  border-bottom: 2px solid #009dd6;
+}
+
+/* line 2298, ../sass/styles.scss */
+.btn-light-blue:hover,
+.btn-light-blue:active,
+.btn-light-blue.active,
+.btn-light-blue:focus {
+  background: #00bbff;
+  color: #fff;
+}
+
+/* line 2302, ../sass/styles.scss */
+.btn-black {
+  padding: 15px 25px;
+  background: #434343;
+  color: #fff;
+  text-shadow: none;
+  font-weight: 400;
+  font-size: 20px;
+  border: 0;
+  border-bottom: 2px solid #292929;
+}
+
+/* line 2315, ../sass/styles.scss */
+.btn-black:hover,
+.btn-black:active,
+.btn-black.active,
+.btn-black:focus {
+  background: #5c5c5c;
+  color: #fff;
+}
+
+/* styles for links page*/
+/* line 2320, ../sass/styles.scss */
+.list-pages {
+  margin-top: 40px;
+  text-align: center;
+  list-style: none;
+  font-size: 20px;
+}
+
+/* line 2326, ../sass/styles.scss */
+.list-pages li {
+  display: inline-block;
+  margin-right: 40px;
+  margin-bottom: 15px;
+  vertical-align: middle;
+}
+
+/* line 2334, ../sass/styles.scss */
+.markdown h2 {
+  margin: 50px 0px;
+}
+/* line 2337, ../sass/styles.scss */
+.markdown h2.first {
+  margin-top: 10px;
+}
+/* line 2340, ../sass/styles.scss */
+.markdown li {
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+
+/* line 2346, ../sass/styles.scss */
+.documentation h3 {
+  margin: 20px 0px;
+}
+/* line 2349, ../sass/styles.scss */
+.documentation h4 {
+  margin: 20px 0px;
+  font-weight: 600;
+}
+/* line 2353, ../sass/styles.scss */
+.documentation .code-example {
+  margin-bottom: 20px;
+}
+/* line 2356, ../sass/styles.scss */
+.documentation li {
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+
+/* line 2362, ../sass/styles.scss */
+h2.padtop {
+  margin-top: 40px;
+}
+
+/* line 2366, ../sass/styles.scss */
+#disqus {
+  margin-top: 50px;
+}
+
+/* line 2370, ../sass/styles.scss */
+pre {
+  background-color: #fff;
+}
+
+/* line 2374, ../sass/styles.scss */
+pre.response {
+  max-height: 500px;
+  overflow-y: scroll;
+}

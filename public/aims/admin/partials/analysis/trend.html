@@ -1,0 +1,288 @@
+
+<style>
+button.onlyright{margin-top: 20px; float: right;}
+span.info{font-size: 12px;  color: #7a7676; display: inline-block; margin-bottom: 5px; text-align: right;}
+.dataitem>span.datatitle{display: inline-block; font-weight: bold; margin-right: 10px; line-height: 16px; width:100px}	
+.dataitem>span.datainfo{display: inline-block;  line-height: 20px;}	
+.company-details{margin-left: 65px; max-height: 0px; overflow: hidden; -webkit-transition: all 0.5s; -moz-transition: all 0.5s;
+    transition: all 0.5s;}
+a.coyname{cursor: pointer;}	
+.rightsearch{display: inline-block; float: right; margin-top: -5px;}
+.rightsearch>input{font-weight: normal;}
+button.smalledit{margin-left: 55px; border: 0; margin-top: -30px; background-color: rgba(255,255,255,0);}
+button.smalledit:hover{background-color: rgba(255,255,255,0); color: #FF6C60;}
+.smalledit.deletecoy{margin-left:0px;}
+ul.goal-progress li{padding-bottom: 0px; margin-bottom: 0px; padding-top: 15px;}
+li.companylistitems{-webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s;}
+.mail-box-info .header, .mail-nav h4, .mail-nav-body, .mail-nav-bg-color{background-color: #fff;}
+.mail-nav h4{color: #7a7676;}
+.mail-navigation {margin-top: 0px;}
+.nav-pills.country>li>a{border-radius: 0px; margin-left: -15px; width: 130%; border-bottom: 1px solid #ededed; text-transform: uppercase;}
+.nav.country > li > a:hover:hover{background-color: #eee; color: #7a7676;}
+.mail-box-info{padding:0;}
+.mail-box-info .mail-list {margin-top: 13px;}
+.mail-box{ width:66.33333333%;}
+@media (max-width:767px){.mail-box{ width: 100%;} aside.mail-nav{height: 100px;}}
+li.list-group-item:hover{background-color: #ededed;}
+i.cancelitem:hover{color:#FF6C60; }
+#countrylisting>.chosen-container.chosen-container-single{width: 100% !important; margin-top: 0px !important;}
+.chosen-wrapper>.chosen-container.chosen-container-single{width: 100% !important; margin-top: 0px !important;}
+label.lefty    {    text-align: left !important;}
+div.dataset  {width: 20% !important; }
+div.form-group.odd {    }
+    div.form-group.odd, div.form-group.even
+    {
+        margin-bottom: 19px !important;
+        border: 1px solid #ededed;
+        padding-bottom: 10px;
+    }
+
+    div.form-group.odd>label, div.form-group.even>label
+    {
+        margin-bottom: 7px;
+        font-size: 13px;
+        font-weight: bold;
+        background-color: #ededed !important; 
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+
+    label.categoryh
+    {
+        text-transform: uppercase;
+padding-left: 15px;
+margin-bottom: 15px;
+background-color: #000;
+margin-left: -15px;
+width: 120%;
+padding-bottom: 5px;
+color: #e1003a;
+    }
+</style>
+
+ <!-- page heading start-->
+        <div class="page-heading">
+            <h3>
+                New Trend Analysis
+            </h3>
+            <ul class="breadcrumb">
+                <li>
+                    <a href="#/">Home</a>
+                </li>
+                <li class="active"> Trend Analysis</li>
+            </ul>
+            <div class="state-info">
+               
+            </div>
+        </div>
+        <!-- page heading end-->
+
+        <!--body wrapper start-->
+        <div class="wrapper">
+           
+            <div class="row">
+            	 <div class="col-md-4">
+                    <div class="panel">
+                      <header class="panel-heading">
+                            Basic Analysis Parameters
+                           
+                        </header>
+                        <div class="panel-body">
+                           <form class="form-horizontal" role="form">
+                           <div class="form-group">
+                                <label  class="col-lg-2 col-sm-2 control-label">Coy</label>
+                                <div class="col-lg-10 chosen-wrapper">
+                                    <select data-placeholder="Select company ..." class="chosen-select" id="selectCompany">
+                                        <option value="0"></option>
+                                        <option ng-repeat="t in transportCompanies" value="{{t.id}}">{{t.Name}}</option>
+                                    </select>
+                                </div>
+                            </div>                           
+                           
+                        
+                            
+                            <div class="form-group">
+                                <label  class="col-lg-2 col-sm-2 control-label">Span</label>
+                                <div class="col-lg-10 chosen-wrapper">
+                                    <select data-placeholder="Analysis span ..." class="chosen-select"  id="selectspan" >
+                                        <option value></option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                            </div>                           
+                           
+                          
+                            
+                            <div class="form-group">
+                                <label  class="col-lg-2 col-sm-2 control-label">Title</label>
+                                <div class="col-lg-10">
+                                    <textarea rows="3" class="form-control"  placeholder="Describe this analysis" ng-model="analysisdescription"></textarea>
+                                   
+                                </div>
+                            </div>
+                            
+		                 
+                            
+
+                           </form>
+                         <button class="btn btn-info onlyright" type="button" ng-click="proceed()"><i class="fa fa-save"></i> Proceed </button>
+                        </div>
+                    </div>
+                </div>
+                
+               
+      
+
+                 <div class="col-md-8">
+                    <div class="panel">
+                      <header class="panel-heading">
+                            Financial Details
+                           
+                        </header>
+                        <div class="panel-body" id="financialdetails">
+                           <form class="form-horizontal" role="form" style="padding-left: 15px; padding-right: 15px; overflow: hidden;">
+                               <label  class="col-lg-12 col-sm-12  control-label lefty categoryh">Fixed  Asset</label>
+                               <div class="form-group odd">
+                                    <label  class="col-lg-12 col-sm-12  control-label lefty">Total Fixed Asset</label>
+                                    <div class="col-lg-2 chosen-wrapper dataset" ng-repeat="s in span">
+                                        <input type="text" class="form-control numericonly"  placeholder="Period {{s}}" ng-model="fixed_asset[$index]">
+                                    </div>
+                                </div>
+                               
+
+
+                                <label  class="col-lg-12 col-sm-12  control-label lefty categoryh">Current  Asset</label>
+                                <div class="form-group odd">
+                                    <label  class="col-lg-12 col-sm-12  control-label lefty">Total Current Asset</label>
+                                    <div class="col-lg-2 chosen-wrapper dataset" ng-repeat="s in span">
+                                        <input type="text" class="form-control numericonly"  placeholder="Period {{s}}" ng-model="current_asset[$index]">
+                                    </div>
+                                </div>
+
+                                <div class="form-group odd">
+                                    <label  class="col-lg-12 col-sm-12  control-label lefty">Debtors and Receivables</label>
+                                    <div class="col-lg-2 chosen-wrapper dataset" ng-repeat="s in span">
+                                        <input type="text" class="form-control numericonly"  placeholder="Period {{s}}" ng-model="debtors[$index]">
+                                    </div>
+                                </div>
+
+                                <div class="form-group odd">
+                                    <label  class="col-lg-12 col-sm-12  control-label lefty">Inventory</label>
+                                    <div class="col-lg-2 chosen-wrapper dataset" ng-repeat="s in span">
+                                        <input type="text" class="form-control numericonly"  placeholder="Period {{s}}" ng-model="inventory[$index]">
+                                    </div>
+                                </div>
+
+
+                               <label  class="col-lg-12 col-sm-12  control-label lefty categoryh">Current Liabilities</label>
+                                <div class="form-group odd">
+                                    <label  class="col-lg-12 col-sm-12  control-label lefty">Total Current Liabilities / Short Term Debt</label>
+                                    <div class="col-lg-2 chosen-wrapper dataset" ng-repeat="s in span">
+                                        <input type="text" class="form-control numericonly"  placeholder="Period {{s}}" ng-model="current_liabilities[$index]">
+                                    </div>
+                                </div>                           
+                                                
+                                <label  class="col-lg-12 col-sm-12  control-label lefty categoryh">Long Term Loans</label>
+                                <div class="form-group odd">
+                                    <label  class="col-lg-12 col-sm-12  control-label lefty">Long Term Loans</label>
+                                    <div class="col-lg-2 chosen-wrapper dataset" ng-repeat="s in span">
+                                        <input type="text" class="form-control numericonly"  placeholder="Period {{s}}" ng-model="long_term_loans[$index]">
+                                    </div>
+                                </div>  
+                               
+                                <label  class="col-lg-12 col-sm-12  control-label lefty categoryh">Equity</label>
+                               <div class="form-group odd">
+                                    <label  class="col-lg-12 col-sm-12  control-label lefty">Equity</label>
+                                    <div class="col-lg-2 chosen-wrapper dataset" ng-repeat="s in span">
+                                        <input type="text" class="form-control numericonly"  placeholder="Period {{s}}" ng-model="equity[$index]">
+                                    </div>
+                                </div>     
+
+                               <div class="form-group odd">
+                                    <label  class="col-lg-12 col-sm-12  control-label lefty">Preferred Stock</label>
+                                    <div class="col-lg-2 chosen-wrapper dataset" ng-repeat="s in span">
+                                        <input type="text" class="form-control numericonly"  placeholder="Period {{s}}" ng-model="preferred_stock[$index]">
+                                    </div>
+                                </div>
+                                
+                               
+                               <label  class="col-lg-12 col-sm-12  control-label lefty categoryh">Preferred Stock Dividends</label>
+
+                                <div class="form-group odd">
+                                    <label  class="col-lg-12 col-sm-12  control-label lefty">Preferred Stock Dividends</label>
+                                    <div class="col-lg-2 chosen-wrapper dataset" ng-repeat="s in span">
+                                        <input type="text" class="form-control numericonly"  placeholder="Period {{s}}" ng-model="preferred_stock_div[$index]">
+                                    </div>
+                                </div>
+                               
+                                
+                               <label  class="col-lg-12 col-sm-12  control-label lefty categoryh">Others</label>
+                               <div class="form-group odd">
+                                    <label  class="col-lg-12 col-sm-12  control-label lefty">Sales</label>
+                                    <div class="col-lg-2 chosen-wrapper dataset" ng-repeat="s in span">
+                                        <input type="text" class="form-control numericonly"  placeholder="Period {{s}}" ng-model="sales[$index]">
+                                    </div>
+                                </div>
+                               
+                               <div class="form-group odd">
+                                    <label  class="col-lg-12 col-sm-12  control-label lefty">Gross Profit</label>
+                                    <div class="col-lg-2 chosen-wrapper dataset" ng-repeat="s in span">
+                                        <input type="text" class="form-control"  placeholder="Period {{s}}" ng-model="gross_profit[$index]">
+                                    </div>
+                                </div>  
+
+                               <div class="form-group odd">
+                                    <label  class="col-lg-12 col-sm-12  control-label lefty">Profit Before Tax</label>
+                                    <div class="col-lg-2 chosen-wrapper dataset" ng-repeat="s in span">
+                                        <input type="text" class="form-control"  placeholder="Period {{s}}" ng-model="profit_before_tax[$index]">
+                                    </div>
+                                </div>   
+                                <div class="form-group odd">
+                                    <label  class="col-lg-12 col-sm-12  control-label lefty">Profit after Tax</label>
+                                    <div class="col-lg-2 chosen-wrapper dataset" ng-repeat="s in span">
+                                        <input type="text" class="form-control"  placeholder="Period {{s}}" ng-model="profit_after_tax[$index]">
+                                    </div>
+                                </div>  
+                               
+                                 
+                                <label  class="col-lg-12 col-sm-12  control-label lefty categoryh">Cash Flow</label>
+                               <div class="form-group odd">
+                                    <label  class="col-lg-12 col-sm-12  control-label lefty">Capital Expenditures</label>
+                                    <div class="col-lg-2 chosen-wrapper dataset" ng-repeat="s in span">
+                                        <input type="text" class="form-control numericonly"  placeholder="Period {{s}}" ng-model="capitalexpenditures[$index]">
+                                    </div>
+                                </div> 
+
+                               <div class="form-group odd">
+                                    <label  class="col-lg-12 col-sm-12  control-label lefty">Net Operational Cash Flow</label>
+                                    <div class="col-lg-2 chosen-wrapper dataset" ng-repeat="s in span">
+                                        <input type="text" class="form-control numericonly"  placeholder="Period {{s}}" ng-model="netcashflow[$index]">
+                                    </div>
+                                </div> 
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                                                                                                                                                                                
+                            
+                         
+                            
+		                 
+                            
+
+                           </form>
+                         <button class="btn btn-info onlyright" type="button" ng-click="startanalysis()"><i class="fa fa-save"></i> Start Analysis</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <!--body wrapper end-->

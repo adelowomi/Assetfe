@@ -1,0 +1,187 @@
+﻿
+<style>
+button.onlyright{margin-top: 20px; float: right;}
+span.info{font-size: 12px;  color: #7a7676; display: inline-block; margin-bottom: 5px; text-align: right;}
+.dataitem>span.datatitle{display: inline-block; font-weight: bold; margin-right: 10px; line-height: 16px; width:100px}	
+.dataitem>span.datainfo{display: inline-block;  line-height: 20px;}	
+.company-details{margin-left: 65px; max-height: 0px; overflow: hidden; -webkit-transition: all 0.5s; -moz-transition: all 0.5s;
+    transition: all 0.5s;}
+a.coyname{cursor: pointer;}	
+.rightsearch{display: inline-block; float: right; margin-top: -5px;}
+.rightsearch>input{font-weight: normal;}
+button.smalledit{margin-left: 55px; border: 0; margin-top: -30px; background-color: rgba(255,255,255,0);}
+button.smalledit:hover{background-color: rgba(255,255,255,0); color: #FF6C60;}
+.smalledit.deletecoy{margin-left:0px;}
+ul.goal-progress li{padding-bottom: 0px; margin-bottom: 0px; padding-top: 15px;}
+li.companylistitems{-webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s;}
+.mail-box-info .header, .mail-nav h4, .mail-nav-body, .mail-nav-bg-color{background-color: #fff;}
+.mail-nav h4{color: #7a7676;}
+.mail-navigation {margin-top: 0px;}
+.nav-pills.country>li>a{border-radius: 0px; margin-left: -15px; width: 130%; border-bottom: 1px solid #ededed; text-transform: uppercase;}
+.nav.country > li > a:hover:hover{background-color: #eee; color: #7a7676;}
+.mail-box-info{padding:0;}
+.mail-box-info .mail-list {margin-top: 13px;}
+.mail-box{ width:58.33333333%;}
+@media (max-width:767px){.mail-box{ width: 100%;} aside.mail-nav{height: 100px;}}
+li.list-group-item:hover{background-color: #ededed;}
+i.cancelitem:hover{color:#FF6C60; }
+#countrylisting>.chosen-container.chosen-container-single{width: 100% !important; margin-top: 0px !important;}
+    th.details-control, td.details-control {
+        display: table-cell !important;
+    }
+</style>
+
+ <!-- page heading start-->
+        <div class="page-heading">
+            <h3>
+                Menu Management
+            </h3>
+            <ul class="breadcrumb">
+                <li>
+                    <a href="#/">Home</a>
+                </li>
+                <li class="active"> Menu Management</li>
+            </ul>
+            <div class="state-info">
+               
+            </div>
+        </div>
+        <!-- page heading end-->
+
+        <!--body wrapper start-->
+        <div class="wrapper">
+           
+            <div class="row" id="DefaultView">
+            	 <div class="col-md-5" >
+                    <div class="panel">
+                        <header class="panel-heading">
+                            add menu
+                        </header>
+                        <div class="panel-body">
+                           <form class="form-horizontal" role="form">
+                           <div class="form-group">
+                                <label  class="col-lg-3 col-sm-3 control-label">Page Name</label>
+                                <div class="col-lg-9">
+                                    <input type="text" class="form-control"  ng-model="NewModule.PageName">
+                                </div>
+                               
+                            </div>
+                               <div class="form-group">
+                                <label  class="col-lg-3 col-sm-3 control-label">Description</label>
+                                <div class="col-lg-9">
+                                    <input type="text" class="form-control"   ng-model="NewModule.PageDescription">
+                                </div>
+                            </div>
+                                <div class="form-group">
+                                <label  class="col-lg-3 col-sm-3 control-label">URL</label>
+                                <div class="col-lg-9">
+                                    <input type="text" class="form-control" ng-model="NewModule.PageURL">
+                                </div>
+                            </div>
+                                <div class="form-group">
+                                <label  class="col-lg-3 col-sm-3 control-label">Icon Class</label>
+                                <div class="col-lg-9">
+                                    <input type="text" class="form-control" ng-model="NewModule.IconClass">
+                                </div>
+                            </div>
+
+                                <div class="form-group">
+                                <label  class="col-lg-3 col-sm-3 control-label">Parent</label>
+                                <div class="col-lg-9 chosen-wrapper">
+                                    <select data-placeholder="Select parent menu..." class="chosen-select" id="selParent">
+                                        <option value="-"></option>
+                                        <option value="0">No Parent Menu</option>
+                                        <option ng-repeat="p in ParentMenus" value="{{p.Id}}">{{p.PageName}}</option>
+                                    </select>
+                                </div>
+                            </div> 
+                           </form>
+                         <button class="btn btn-info onlyright" type="button" ng-click="AddModule()"><i class="fa fa-save"></i> Add Module</button>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-7">
+                    <div class="panel">
+                        <header class="panel-heading">
+                            modules 
+                        </header>
+                        <div class="panel-body">
+                            <form class="form-horizontal" role="form" style="display: none;">
+                             <div class="form-group" >
+                                          <label class="col-sm-6 col-md-3 check-radio" >                                             
+                                          <input value="parent" type="radio"  class="custom" name="MenyType" checked /> Parent Menus</label>
+                                 <label class="col-sm-6 col-md-3 check-radio" >                                             
+                                          <input value="child" type="radio"  class="custom" name="MenyType" /> Child Menus</label>
+                                          </div> 
+                           </form>
+                        <table  id="tblModules" class="table table-striped dataTable" cellspacing="0" width="100%">
+                                        <thead>
+                                            <tr>
+                                                <th style="width: 25px !important;"></th>
+                                                <th>Module Name</th>
+                                                <th>Description</th>
+                                                <th style="width: 70px !important;"></th>
+                                                
+                                            </tr>
+                                        </thead>
+
+                                    </table>
+                        </div>
+                    </div>
+                </div>
+           
+            </div>
+
+            <div class="row" style="display: none;" id="EditView">
+                
+            <div class="col-md-5">
+                    <div class="panel">
+                        <header class="panel-heading">
+                           edit menu item
+                        </header>
+                        <div class="panel-body">
+                           <form class="form-horizontal" role="form">
+                           <div class="form-group">
+                                <label  class="col-lg-3 col-sm-3 control-label">Page Name</label>
+                                <div class="col-lg-9">
+                                    <input type="text" class="form-control"  ng-model="EditModule.PageName">
+                                </div>
+                            </div>
+                               <div class="form-group">
+                                <label  class="col-lg-3 col-sm-3 control-label">Description</label>
+                                <div class="col-lg-9">
+                                    <input type="text" class="form-control"   ng-model="EditModule.PageDescription">
+                                </div>
+                            </div>
+                                <div class="form-group">
+                                <label  class="col-lg-3 col-sm-3 control-label">URL</label>
+                                <div class="col-lg-9">
+                                    <input type="text" class="form-control" ng-model="EditModule.PageURL">
+                                </div>
+                            </div>
+                                <div class="form-group">
+                                <label  class="col-lg-3 col-sm-3 control-label">Icon Class</label>
+                                <div class="col-lg-9">
+                                    <input type="text" class="form-control" ng-model="EditModule.IconClass">
+                                </div>
+                            </div>
+
+                                <div class="form-group" ng-show="IsChild">
+                                <label  class="col-lg-3 col-sm-3 control-label">Parent</label>
+                                <div class="col-lg-9 chosen-wrapper">
+                                    <select data-placeholder="Select parent menu..." class="chosen-select" id="SelEditModule">
+                                        <option value="-"></option>
+                                        <option ng-repeat="p in ParentMenus" value="{{p.Id}}">{{p.PageName}}</option>
+                                    </select>
+                                </div>
+                            </div> 
+                           </form>
+                         <button class="btn btn-info onlyright" type="button" ng-click="SendEditModule()"><i class="fa fa-edit"></i> Edit Module</button>
+                            <button class="btn btn-info onlyright" type="button" ng-click="ExitEdit()"><i class="fa fa-mail-reply"></i> Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!--body wrapper end-->

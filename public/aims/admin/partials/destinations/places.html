@@ -1,0 +1,125 @@
+
+<style>
+button.onlyright{margin-top: 20px; float: right;}
+span.info{font-size: 12px;  color: #7a7676; display: inline-block; margin-bottom: 5px; text-align: right;}
+.dataitem>span.datatitle{display: inline-block; font-weight: bold; margin-right: 10px; line-height: 16px; width:100px}	
+.dataitem>span.datainfo{display: inline-block;  line-height: 20px;}	
+.company-details{margin-left: 65px; max-height: 0px; overflow: hidden; -webkit-transition: all 0.5s; -moz-transition: all 0.5s;
+    transition: all 0.5s;}
+a.coyname{cursor: pointer;}	
+.rightsearch{display: inline-block; float: right; margin-top: -5px;}
+.rightsearch>input{font-weight: normal;}
+button.smalledit{margin-left: 55px; border: 0; margin-top: -30px; background-color: rgba(255,255,255,0);}
+button.smalledit:hover{background-color: rgba(255,255,255,0); color: #FF6C60;}
+.smalledit.deletecoy{margin-left:0px;}
+ul.goal-progress li{padding-bottom: 0px; margin-bottom: 0px; padding-top: 15px;}
+li.companylistitems{-webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s;}
+.mail-box-info .header, .mail-nav h4, .mail-nav-body, .mail-nav-bg-color{background-color: #fff;}
+.mail-nav h4{color: #7a7676;}
+.mail-navigation {margin-top: 0px;}
+.nav-pills.country>li>a{border-radius: 0px; margin-left: -15px; width: 130%; border-bottom: 1px solid #ededed; text-transform: uppercase;}
+.nav.country > li > a:hover:hover{background-color: #eee; color: #7a7676;}
+.mail-box-info{padding:0;}
+.mail-box-info .mail-list {margin-top: 13px;}
+.mail-box{ width:58.33333333%;}
+@media (max-width:767px){.mail-box{ width: 100%;} aside.mail-nav{height: 100px;}}
+li.list-group-item:hover{background-color: #ededed;}
+i.cancelitem:hover{color:#FF6C60; }
+#countrylisting>.chosen-container.chosen-container-single{width: 100% !important; margin-top: 0px !important;}
+</style>
+
+ <!-- page heading start-->
+        <div class="page-heading">
+            <h3>
+                Manage Places
+            </h3>
+            <ul class="breadcrumb">
+                <li>
+                    <a href="#/">Home</a>
+                </li>
+                <li class="active"> Places </li>
+            </ul>
+            <div class="state-info">
+               
+            </div>
+        </div>
+        <!-- page heading end-->
+
+        <!--body wrapper start-->
+        <div class="wrapper">
+           
+            <div class="row">
+            	 <div class="col-md-5">
+                    <div class="panel">
+                        <header class="panel-heading">
+                            add country
+                           
+                        </header>
+                        <div class="panel-body">
+                           <form class="form-horizontal" role="form">
+                           <div class="form-group">
+                                <label  class="col-lg-2 col-sm-2 control-label">Name</label>
+                                <div class="col-lg-10">
+                                    <input type="text" class="form-control"  placeholder="Country name" ng-model="newCountry.CountryName">
+                                </div>
+                            </div>
+                            
+		                 
+                            
+
+                           </form>
+                         <button class="btn btn-info onlyright" type="button" ng-click="addCountry()"><i class="fa fa-save"></i> Add</button>
+                        </div>
+                    </div>
+                </div>
+                
+               
+          <div class="mail-box col-md-7">
+                <aside class="mail-nav mail-nav-bg-color">
+                    <header class="panel-heading">countries </header>
+                    <div class="mail-nav-body" id="countrylisting">
+					<select data-placeholder="Select country ..." class="chosen-select" >
+	                    <option value></option>
+						<option ng-repeat="c in countries" value="{{c.ID}}">{{c.NATIONALITY}}</option>
+                       
+                    </select>
+                      <!--  <ul class="nav nav-pills nav-stacked mail-navigation country">
+                            <li ng-repeat="c in countries"><a href="#"> {{c.NATIONALITY}}</a></li>
+
+                        </ul>-->
+
+                    </div>
+                  
+                </aside>
+                <section class="mail-box-info">
+                    <header class="panel-heading" style="color: #269abc;">states </header>
+
+                    <section class="mail-list">
+                    
+                        <ul class="list-group " style="margin-left: 15px;">
+                        <li style="list-style: none;">
+                        	<div class="input-group m-bot15" style="width: 75%;">
+                                  <input type="text" class="form-control" placeholder="Add states" ng-model="newState.StateName">
+                                  <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button">Add!</button>
+                                  </span>
+                            </div>
+                         </li>
+                            <li class="list-group-item" ng-repeat="s in selectedCountry.States">
+                                <a class="thumb pull-left" href="#"> <i class="fa fa-times cancelitem"></i> </a>
+                                <a class="" href="mail_view.html"> <small class="pull-right text-muted"></small> <strong>{{s.StateName}}</strong>    </a>
+                            </li>
+                            
+                           
+                          
+                    
+                        </ul>
+                    </section>
+
+
+                </section>
+            </div>
+            </div>
+
+        </div>
+        <!--body wrapper end-->

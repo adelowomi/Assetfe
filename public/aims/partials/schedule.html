@@ -1,0 +1,331 @@
+<link rel="stylesheet" href="plugin/chosen/chosen.css">
+<style>
+form
+{
+	width: 100%;
+	background-color: rgba(255,255,255,0.9);
+	padding-bottom: 20px;
+	box-shadow: rgba(0,0,0,0.2) 0 2px 6px;
+}
+form>h1
+{
+	background-color: #000000; height: 70px; width: 100%; font-size: 32px; color: #fff; padding-left: 40px; padding-top: 15px;
+		box-sizing: border-box; margin-bottom: 30px; text-transform:uppercase;
+}
+
+form>fieldset
+{
+	padding-left: 40px;
+}
+input[type=text], input[type=password]
+{
+	width: 45% !important;
+}
+input[type=text].w2_5
+{
+	width: 36% !important;
+}
+input[type=text].w4_5
+{
+	width: 72% !important;
+}
+input[type=text].w1_5
+{
+	width: 22% !important;
+}
+input.mini
+{
+	width: 75px !important;
+border-radius: 5px !important;
+}
+button
+{
+	width: 25%;
+	height: 40px;
+	margin-top: -10px;
+	font-size: 20px;
+	border-radius: 0px !important;
+}
+.home-page-top .header
+{
+	background-image: url(images/login.jpg);
+	background-color: #fff;
+}
+
+.home-page-top .header .container-mask
+{
+	padding-top: 15px;
+}
+footer, section.gallery-home-page, section.cooperation { visibility: hidden !important; opacity: 0  !important; display: none;}
+.home-page-top .header .container-mask, .home-page-top .header {height: 100% !important; background: none;}
+#drop-menu{height:100% !important;}
+form>fieldset>h2
+{
+	color: #333333;
+font-size: 18px;
+margin-bottom: 5px;
+width: 100%;
+font-weight: 800;
+}
+fieldset>div>label
+{
+	float: left !important;
+	margin-right: 50px;
+}
+fieldset>div>div.iradio_square-blue
+{
+	margin-right: 10px;
+	float: left;
+}
+fieldset>label{float: left; padding-top: 10px; margin-right: 10px;}
+div.sectiongroup {margin-bottom: 20px; width: 100%; }
+.triptypeviews {display: none;}
+.incrementer {width: 15px; cursor: pointer; margin-right: 0px; margin-top: -10px; margin-left: 10px;}
+.datasection {padding: 0px 30px 30px 30px; width: 100%; border: 1px solid #ededed; background-color: #fff; 
+	box-sizing: border-box; margin-top: 20px; overflow:hidden; -webkit-transition: all 0.5s; -moz-transition: all 0.5s;
+    transition: all 0.5s;}
+.datasection>h3{color: #d45559; font-size: 22px; margin-top: 0px; margin-bottom: 20px; background: #ffffff;
+	padding-top: 4px; margin-left: -30px; padding-left: 30px; width: 150%;
+	background: -moz-linear-gradient(top, #ffffff 1%, #eaeaea 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ffffff), color-stop(100%,#eaeaea));
+	background: -webkit-linear-gradient(top, #ffffff 1%,#eaeaea 100%);
+	background: -o-linear-gradient(top, #ffffff 1%,#eaeaea 100%);
+	background: -ms-linear-gradient(top, #ffffff 1%,#eaeaea 100%);
+	background: linear-gradient(top, #ffffff 1%,#eaeaea 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eaeaea',GradientType=0 );
+	box-shadow: 0px 0px 0px 1px rgba(155,155,155,0.3), 1px 0px 0px 0px rgba(255,255,255,0.9) inset, 0px 2px 2px rgba(0,0,0,0.1);}
+.datasection>.dataitem{width: 45%; background-color: rgba(100,100,100,0.02); box-sizing: border-box; padding: 20px 15px 20px 20px;
+	border: 2px solid #fff; box-shadow: rgba(0,0,0,0.2) 0 2px 6px; float: right; margin-bottom: 20px; }
+.datasection>.dataitem:nth-child(odd) {float: left !important;}
+.datasection>.dataitem:nth-child(odd) {clear:both;}
+.dataitem>span.busmodel{font-size: 16px; font-weight: bold; color: #666666; line-height: 16px; margin-bottom: 10px;
+	display: inline-block;}
+.dataitem>span.busdescription{font-size: 14px; color: #666; display: inline-block; margin-bottom: 10px; line-height: 14px;}
+.dataitem>span.datatitle{display: inline-block; font-weight: bold; font-size: 14px; margin-right: 10px; line-height: 16px;}	
+.dataitem>span.datainfo{display: inline-block; font-size: 14px; line-height: 20px;}	
+.dataitem>span.pricing{display: inline-block; margin-top: 20px; font-size: 24px; font-weight: bold;color: #2489c5; 
+	padding: 0 !important;}
+.dataitem>button.booknow{border: 0; display: inline-block; float: right; margin-top: 15px; width: 45%; padding: 0;}
+.datasection>.accordiontrigger{width: 15px; height: 15px; position: relative; top: 15px; right: 0px; float: right; 
+	background-image: url(images/minus.png); background-repeat: no-repeat; background-size: contain;}
+.datasection>.dataitem.wideinfo{width: 100%;}	
+.dataitem.wideinfo>span.datainfo{margin-bottom: 15px;}
+.dataitem.wideinfo>span.datatitle{width: 150px;}
+.datasection>.dataitem.wideinfo{background: none; box-shadow:none;}
+.dataitem.wideinfo>button.booknow{width: 25%; float: left;}
+label.forcheck{display: inline-block; margin-left: 20px;}
+button.advance.booknow{padding: 4px 12px !important; border-bottom: none !important;}
+</style><link rel="stylesheet" type="text/css" href="css/blue.css">
+     <div class="container">
+        <div class="flat-form">
+         
+            <div id="login" class="form-action show">
+                
+               	<div id="step1" class="clssection">
+                	<form>
+                  <h1>Schedule Trip</h1>
+                  <fieldset>
+        
+					<h2>Preferred Travel Mode</h2>
+                   <div class="sectiongroup">
+                   <span ng-repeat="tm in travelModes" style="float: left; width: 100px;">
+                    <input  type="radio" name="travelmode" checked value="{{tm.Id}}" label="{{tm.TravelMode}}"
+                     class="travelmodes"> <label style="display: inline; margin-left: 5px;" class="tripmodelabels" for="{{tm.Id}}">{{tm.TravelMode}}</label>
+					</span>
+                    
+                    </div>
+					<br clear="all"/>
+                   <!-- <label>Number of Travellers</label>
+                    <input id="travellers" type="text" placeholder="" class="mini numericonly" value="1" />
+                    <img src="images/plus.png" class="incrementer" id="plus" />  
+                    <img src="images/minus.png" class="incrementer" id="minus"/> 
+                    <br clear="all"/>-->
+                    
+                    <h2>Trip type</h2>
+                   <div class="sectiongroup">
+                    <input type="radio" name="triptype" ref="onewayview" value="1"  class="triptypes"> <label class="triptypelabels" for="1">One Way</label>
+					<input type="radio" name="triptype" ref="roundtripview" value="2" class="triptypes"><label class="triptypelabels" for="2">Round Trip</label>
+					<input type="radio" name="triptype" ref="multitripview" value="3" class="triptypes"><label class="triptypelabels" for="3">Multiple Trips</label>
+                    </div>
+					
+                    <br clear="all"/>
+                    <div id="onewayview" class="triptypeviews">
+                    <select data-placeholder="Departure point ..." class="chosen-select w2_5" id="onewayfrom" >
+	                    <option value></option>
+						<option ng-repeat="sc in statescities" value="{{sc.StateId}}">{{sc.StateName}} - {{sc.Cities}}</option>
+                    </select>
+                    <select data-placeholder="Destination ..." class="chosen-select w2_5" id="onewayto">
+	                    <option value></option>
+						<option ng-repeat="sc in statescities" value="{{sc.StateId}}">{{sc.StateName}} - {{sc.Cities}}</option>
+                    </select>               
+                    <input type="text" placeholder="Date" class="datecontrol w1_5" ng-model="searchParams.departuredate" />                    
+                    </div>
+                    <div id="roundtripview" class="triptypeviews">
+                    <select data-placeholder="Departure Point ..." class="chosen-select w4_5" id="roundtripfrom">
+	                    <option value></option>
+						<option value="1">Lagos</option>
+                        <option value="2">Benin</option>
+                    </select> 
+                        <input type="text" placeholder="Departure Date" class="datecontrol w1_5" ng-model="searchParams.departuredate" />
+                        
+                    <select data-placeholder="Destination Point ..." class="chosen-select w4_5" id="roundtripto">
+	                    <option value></option>
+						<option value="1">Lagos</option>
+                        <option value="2">Benin</option>
+                    </select>
+                        <input type="text" placeholder="Return Date" class="datecontrol w1_5" ng-model="searchParams.returndate" />                                            
+                    </div>
+                    <div id="multitripview" class="triptypeviews">
+                        <input type="text" placeholder="Departure point" class="w2_5" />
+                        <input type="text" placeholder="Destination" class="w2_5" />                    
+                        <input type="text" placeholder="Departure Date" class="datecontrol w1_5"  />                    
+                    </div>
+                    <br clear="all"/>
+                    <button type="submit" value="Login" class="btn btn-info" ng-click="searchRoutes()" >Show Routes</button>
+                 
+		          </fieldset>
+                  <br clear="all"/>
+                  
+                  <div ng-repeat="sr in routeResults" class="datasection" id="{{sr.TransportCompanyId}}" > <div class="accordiontrigger" owner="{{sr.TransportCompanyId}}" state="opened"></div>
+                  <h3>{{sr.TransportCompanyName}} - {{sr.TransportCompanyAccronym}}</h3>
+                  		<div class="dataitem" ng-repeat="rt in sr.Routes2">
+                        	<span class="busmodel">{{rt.CarrierName}}</span><br/>
+							<span class="busdescription">{{rt.CarrierDescription}}</span><br/>
+							<span class="datatitle">From:</span><span class="datainfo">{{rt.FromTerminalCity}}, {{rt.FromTerminalName}} </span><br/>
+                            <span class="datatitle">To:</span><span class="datainfo">{{rt.ToTerminalCity}}, {{rt.ToTerminalName}}</span><br/>
+							<span class="datatitle">Departure time: </span><span class="datainfo">{{rt.DepartureDate2 | date:'MMM-dd-yyyy h:mma'}}</span><br/>
+                            <span class="pricing">N{{rt.RouteFare}}</span> 
+                            <button tcname="{{sr.TransportCompanyName}}" tcaccr="{{sr.TransportCompanyAccronym}}" 
+                            	tcid="{{rt.TransportCompanyId}}" ref="{{rt.Id}}" fare="{{rt.RouteFare}}" cname="{{rt.CarrierName}}" 
+                                cdescr="{{rt.CarrierDescription}}" cfrom="{{rt.FromTerminalCity}}, {{rt.FromTerminalName}}"
+                                cto="{{rt.ToTerminalCity}}, {{rt.ToTerminalName}}" cdate="{{rt.DepartureDate2 | date:'MMM-dd-yyyy h:mma'}}"
+                                value="book" class="btn btn-info btn-red booknow bookingtrigger" >Book Now</button>
+                        </div>
+                        
+                        
+                        
+                  </div>
+                  
+                  
+                  
+               
+                </form>
+				</div>
+                
+                <div id="step2" style="display: none;" class="clssection">
+                	<form>
+                  <h1>Travellers Information</h1>
+                  <fieldset>
+        
+					
+                    <label>Number of Travellers</label>
+                    <input id="travellers" type="text" placeholder="" class="mini numericonly" value="1"  />
+                    <img src="images/plus.png" class="incrementer" id="plus" />  
+                    <img src="images/minus.png" class="incrementer" id="minus"/> 
+                    <br clear="all"/>
+                    
+                    <div id="travellerinfo" ng-repeat="t in travellers" >
+                        <input type="text" placeholder="Surname" class="w2_5" ng-model="booking.surname[$index]" />
+                        <input type="text" placeholder="Othernames" class="w2_5" ng-model="booking.othernames[$index]" />                    
+                        <input type="text" placeholder="Mobile" class="w1_5"  />                    
+                    </div>
+                    <br clear="all"/>
+                 
+                 	<button value="review1" class="btn btn-info btn-black booknow advance" ng-click="advance(1)" >Review Choices</button>
+                    <button value="continue" class="btn btn-info btn-red booknow advance" id="aftertravellers" >Continue</button>
+		          </fieldset>
+                  <br clear="all"/>
+                  
+                  
+                </form>
+				</div>
+                
+                
+                 <div id="step3" style="display: none;" class="clssection">
+                	<form>
+                  <h1>Booking Summary</h1>
+                  <fieldset>
+         <div class="datasection" style="margin-left: -20px; margin-top: 0px;" > 
+                  
+                  		<div class="dataitem wideinfo">
+                        	<span class="datatitle">Travel mode:</span><span class="datainfo">{{booking.TripModeLabel}}</span><br/>
+                            <span class="datatitle">Trip type:</span><span class="datainfo">{{booking.TripTypeLabel}}</span><br/>
+                            <span class="datatitle">Company:</span><span class="datainfo">{{selectedroute.TransportCompanyName}} - {{selectedroute.TransportCompanyAcronym}}</span><br/>							
+                            <span class="datatitle">Vehicle model:</span><span class="datainfo">{{selectedroute.CarrierName}}</span><br/>                            
+                            <span class="datatitle">Description:</span><span class="datainfo">{{selectedroute.CarrierDescription}}</span><br/>                            
+							<span class="datatitle">From:</span><span class="datainfo">{{selectedroute.FromCity}} </span><br/>
+                            <span class="datatitle">To:</span><span class="datainfo">{{selectedroute.ToCity}}</span><br/>
+							<span class="datatitle">Departure time: </span><span class="datainfo">{{selectedroute.DepartureDate}}</span><br/>
+                            <span class="datatitle">No of passengers: </span><span class="datainfo">{{booking.NoOfPersons}}</span><br/>
+                            <span class="datatitle">Fare per passenger: </span><span class="datainfo">{{selectedroute.Fare | currency:"NGN"}}</span><br/>                            
+                            <span class="datatitle">Total payment due: </span><span class="datainfo">{{booking.TotalAmountDue | currency:"NGN"}}</span><br/>
+                            
+                            <hr style="clear:both" />
+                            <div class="sectiongroup">
+    	                        <input type="checkbox"  checked id="chksms"><label for="chksms" class="forcheck">I want to subscribe to SMS correspondence alerts @ N160</label><br clear="all"/><br/>
+	                            <input type="checkbox" id="chkterms" ><label for="chkterms" class="forcheck">I have read and agree to the terms and conditions of service</label>
+                            </div>  
+                            <span class="datatitle">Total payment due: </span>
+                    		<span class="pricing">{{booking.TotalAmountDue | currency:"NGN"}}</span> 
+                            <br clear="all"/>
+                            <button value="review" class="btn btn-info btn-black booknow" ng-click="advance(2)" >Review Choices</button>
+                            <button value="book" class="btn btn-info btn-red booknow" ng-click="completeBooking()" >Confirm</button>
+                    </div>
+
+                        
+                   
+                  </div>
+					
+                    <h2></h2>
+                   
+					<br clear="all"/>
+                  
+                 
+		          </fieldset>
+           
+                  
+                  
+                </form>
+				</div>
+                
+                
+                	<div id="step4" style="display: none;" class="clssection">
+                	<form>
+                  <h1>Payment</h1>
+                  <fieldset>
+        
+					<h2>How would you prefer to make payment?</h2>
+                  
+                   <div class="sectiongroup">
+                    <input type="radio" name="payment" value="1"  class="triptypes"> <label class="triptypelabels" >Pay Online Now</label>
+					<input type="radio" name="payment" value="2" class="triptypes"><label class="triptypelabels" >Pay Online Later</label>
+					<input type="radio" name="payment" value="3" class="triptypes"><label class="triptypelabels" >Pay at the Bank Later</label>
+                    </div>
+					
+                    <br clear="all"/>
+                   
+                    <br clear="all"/>
+                   <button value="book" class="btn btn-info btn-red booknow advance" ng-click="finishPayment()"  >Finish</button>
+                 
+		          </fieldset>
+                  <br clear="all"/>
+                
+                  
+                  
+               
+                </form>
+				</div>
+                
+                
+            </div>
+            <!--/#login.form-action-->
+      
+          
+        </div>
+    </div>
+    
+
+  <link href="css/iCheck/skins/all.css?v=1.0.2" rel="stylesheet">
+  
+  
+  

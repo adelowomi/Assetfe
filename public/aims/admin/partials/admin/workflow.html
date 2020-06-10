@@ -1,0 +1,177 @@
+﻿
+<style>
+button.onlyright{margin-top: 20px; float: right;}
+span.info{font-size: 12px;  color: #7a7676; display: inline-block; margin-bottom: 5px; text-align: right;}
+.dataitem>span.datatitle{display: inline-block; font-weight: bold; margin-right: 10px; line-height: 16px; width:100px}	
+.dataitem>span.datainfo{display: inline-block;  line-height: 20px;}	
+.company-details{margin-left: 65px; max-height: 0px; overflow: hidden; -webkit-transition: all 0.5s; -moz-transition: all 0.5s;
+    transition: all 0.5s;}
+a.coyname{cursor: pointer;}	
+.rightsearch{display: inline-block; float: right; margin-top: -5px;}
+.rightsearch>input{font-weight: normal;}
+button.smalledit{margin-left: 55px; border: 0; margin-top: -30px; background-color: rgba(255,255,255,0);}
+button.smalledit:hover{background-color: rgba(255,255,255,0); color: #FF6C60;}
+.smalledit.deletecoy{margin-left:0px;}
+ul.goal-progress li{padding-bottom: 0px; margin-bottom: 0px; padding-top: 15px;}
+li.companylistitems{-webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s;}
+.mail-box-info .header, .mail-nav h4, .mail-nav-body, .mail-nav-bg-color{background-color: #fff;}
+.mail-nav h4{color: #7a7676;}
+.mail-navigation {margin-top: 0px;}
+.nav-pills.country>li>a{border-radius: 0px; margin-left: -15px; width: 130%; border-bottom: 1px solid #ededed; text-transform: uppercase;}
+.nav.country > li > a:hover:hover{background-color: #eee; color: #7a7676;}
+.mail-box-info{padding:0;}
+.mail-box-info .mail-list {margin-top: 13px;}
+.mail-box{ width:58.33333333%;}
+@media (max-width:767px){.mail-box{ width: 100%;} aside.mail-nav{height: 100px;}}
+li.list-group-item:hover{background-color: #ededed;}
+i.cancelitem:hover{color:#FF6C60; }
+#countrylisting>.chosen-container.chosen-container-single{width: 100% !important; margin-top: 0px !important;}
+</style>
+
+ <!-- page heading start-->
+        <div class="page-heading">
+            <h3>
+                Approval Workflow Management
+            </h3>
+            <ul class="breadcrumb">
+                <li>
+                    <a href="#/">Home</a>
+                </li>
+                <li class="active"> Approval Workflow Management</li>
+            </ul>
+            <div class="state-info">
+               
+            </div>
+        </div>
+        <!-- page heading end-->
+
+        <!--body wrapper start-->
+        <div class="wrapper">
+           
+            <div class="row" id="DefaultView">
+            	 <div class="col-md-5" >
+                       <div class="panel" style="background: #fef !important" >
+                        <header class="panel-heading" id="TemplateChange">
+                           Change Workflow Type
+                        </header>
+                        <div class="panel-body" >
+                           <form class="form-horizontal" role="form">
+                           <div class="form-group">
+                                <label  class="col-lg-3 col-sm-3 control-label">Workflow Type</label>
+                                <div class="col-lg-9 chosen-wrapper">
+                                    <select data-placeholder="Choose preferred approval workflow type ..." class="chosen-select" id="SelTemplate">
+                                        <option value="-"></option>
+                                        <option value="0">Simple Workflow</option>
+                                        <option value="1">Standard Workflow</option>
+                                        <option value="2">Complex Workflow</option>
+                                    </select>
+                                    <div class="col-lg-12" style="margin-top: 20px;">
+                                   <img id="ImgIllustration" src="images/workflows/1.png" style="max-width: 99%" />
+                               </div>
+                                </div>
+                               
+                            </div>
+                               
+                           </form>
+                         <button class="btn btn-info onlyright" type="button" ng-click="ChangeWorkflowTemplate()"><i class="fa fa-save"></i> Save</button>
+                        </div>
+                    </div>
+
+                    <div class="panel" ng-show="TemplateId != 0">
+                        <header class="panel-heading">
+                            Add New Concurrence / Approval 
+                        </header>
+                        <div class="panel-body">
+                           <form class="form-horizontal" role="form">
+                           <div class="form-group">
+                                <label  class="col-lg-3 col-sm-3 control-label">Role</label>
+                         <div class="col-lg-9 chosen-wrapper">
+                                    <select data-placeholder="Selecte role ..." class="chosen-select" id="SelRole">
+                                        <option value="-"></option>
+                                        <option ng-repeat="r in Roles" value="{{r.Id}}">{{r.RoleName}}</option>
+                                    </select>
+                                </div>
+                            </div>
+                                <div class="form-group">
+                                <label  class="col-lg-3 col-md-4 col-sm-12 control-label">Function</label>
+                         <div class="col-lg-9 col-md-8 col-sm-12" >
+                             <label class=" icheck-wrap"><input id="RadIsConcurrence" name="IsFinalApproval" type="radio" checked  value="0" />Concurrence</label>
+                             <label class="icheck-wrap"><input id="RadIsApproval" name="IsFinalApproval" type="radio" value="1" />Approval</label>
+                             
+                                </div>
+                            </div>
+                               <div class="form-group" id="IsOptionalSection"><hr />
+                                <label  class="col-lg-3 col-md-4 col-sm-12 control-label">Optional Role?</label>
+                         <div class="col-lg-9 col-md-8 col-sm-12" >
+                             <label class=" icheck-wrap"><input id="RadOptional" name="CanBeSkipped"  type="radio" value="1"  />Yes</label>
+                             <label class="icheck-wrap"><input id="Radio2" name="CanBeSkipped" type="radio" checked value="0" />No</label>
+                             
+                                </div>
+                            </div>
+
+                           </form>
+                         <button class="btn btn-info onlyright" type="button" ng-click="AddWorkflow()"><i class="fa fa-save"></i> Add to Workflow</button>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-7">
+                    <div class="panel">
+                        <header class="panel-heading">
+                            Workflow System
+                        </header>
+                        <div class="panel-body">
+                            <form class="form-horizontal" role="form" style="display: none;">
+                             <div class="form-group" >
+                                          <label class="col-sm-6 col-md-3 check-radio" >                                             
+                                          <input value="parent" type="radio"  class="custom" name="MenyType" checked /> Parent Menus</label>
+                                 <label class="col-sm-6 col-md-3 check-radio" >                                             
+                                          <input value="child" type="radio"  class="custom" name="MenyType" /> Child Menus</label>
+                                          </div> 
+                           </form>
+                        <table  id="tblWorkflows" class="table table-striped dataTable" cellspacing="0" width="100%">
+                                        <thead>
+                                            <tr>
+                                                <th>Role</th>
+                                                <th>Type</th>
+                                                 <th>Function</th>
+                                                <th style="width: 150px !important;"></th>
+                                                
+                                            </tr>
+                                        </thead>
+
+                                    </table>
+                        </div>
+                    </div>
+                </div>
+           
+            </div>
+
+            <div class="row" style="display: none;" id="EditView">
+                
+            <div class="col-md-5">
+                    <div class="panel">
+                        <header class="panel-heading">
+                           Edit Workflow Member
+                        </header>
+                        <div class="panel-body">
+                           <form class="form-horizontal" role="form">
+                           <div class="form-group">
+                                <label  class="col-lg-3 col-sm-3 control-label">Role</label>
+                                    <div class="col-lg-9 chosen-wrapper">
+                                    <select data-placeholder="Selecte role ..." class="chosen-select" id="SelEditRole">
+                                        <option value="-"></option>
+                                        <option ng-repeat="r in Roles" value="{{r.Id}}">{{r.RoleName}}</option>
+                                    </select>
+                                </div>
+                            </div>
+                           </form>
+
+                         <button class="btn btn-info onlyright" type="button" ng-click="SendEditWorkflow()"><i class="fa fa-edit"></i> Edit Workflow Member</button>
+                            <button class="btn btn-info onlyright" type="button" ng-click="ExitEdit()"><i class="fa fa-mail-reply"></i> Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!--body wrapper end-->
